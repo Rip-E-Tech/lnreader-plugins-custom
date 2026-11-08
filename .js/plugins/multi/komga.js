@@ -1,1 +1,331 @@
-var t=this&&this.__awaiter||function(t,e,a,r){return new(a||(a=Promise))((function(n,s){function i(t){try{l(r.next(t))}catch(t){s(t)}}function o(t){try{l(r.throw(t))}catch(t){s(t)}}function l(t){var e;t.done?n(t.value):(e=t.value,e instanceof a?e:new a((function(t){t(e)}))).then(i,o)}l((r=r.apply(t,e||[])).next())}))},e=this&&this.__generator||function(t,e){var a,r,n,s={label:0,sent:function(){if(1&n[0])throw n[1];return n[1]},trys:[],ops:[]},i=Object.create(("function"==typeof Iterator?Iterator:Object).prototype);return i.next=o(0),i.throw=o(1),i.return=o(2),"function"==typeof Symbol&&(i[Symbol.iterator]=function(){return this}),i;function o(o){return function(l){return function(o){if(a)throw new TypeError("Generator is already executing.");for(;i&&(i=0,o[0]&&(s=0)),s;)try{if(a=1,r&&(n=2&o[0]?r.return:o[0]?r.throw||((n=r.return)&&n.call(r),0):r.next)&&!(n=n.call(r,o[1])).done)return n;switch(r=0,n&&(o=[2&o[0],n.value]),o[0]){case 0:case 1:n=o;break;case 4:return s.label++,{value:o[1],done:!1};case 5:s.label++,r=o[1],o=[0];continue;case 7:o=s.ops.pop(),s.trys.pop();continue;default:if(!(n=s.trys,(n=n.length>0&&n[n.length-1])||6!==o[0]&&2!==o[0])){s=0;continue}if(3===o[0]&&(!n||o[1]>n[0]&&o[1]<n[3])){s.label=o[1];break}if(6===o[0]&&s.label<n[1]){s.label=n[1],n=o;break}if(n&&s.label<n[2]){s.label=n[2],s.ops.push(o);break}n[2]&&s.ops.pop(),s.trys.pop();continue}o=e.call(t,s)}catch(t){o=[6,t],r=0}finally{a=n=0}if(5&o[0])throw o[1];return{value:o[0]?o[1]:void 0,done:!0}}([o,l])}}},a=this&&this.__rest||function(t,e){var a={};for(var r in t)Object.prototype.hasOwnProperty.call(t,r)&&e.indexOf(r)<0&&(a[r]=t[r]);if(null!=t&&"function"==typeof Object.getOwnPropertySymbols){var n=0;for(r=Object.getOwnPropertySymbols(t);n<r.length;n++)e.indexOf(r[n])<0&&Object.prototype.propertyIsEnumerable.call(t,r[n])&&(a[r[n]]=t[r[n]])}return a};Object.defineProperty(exports,"__esModule",{value:!0});var r=require("@libs/fetch"),n=require("@libs/filterInputs"),s=require("@libs/novelStatus"),i=require("cheerio"),o=require("@libs/storage"),l=function(){function l(){this.id="komga",this.name="Komga",this.icon="src/multi/komga/icon.png",this.version="1.0.2",this.site=o.storage.get("url"),this.email=o.storage.get("email"),this.password=o.storage.get("password"),this.filters={status:{value:"",label:"Status",options:[{label:"All",value:""},{label:"Completed",value:s.NovelStatus.Completed},{label:"Ongoing",value:s.NovelStatus.Ongoing},{label:"Cancelled",value:s.NovelStatus.Cancelled},{label:"OnHiatus",value:s.NovelStatus.OnHiatus}],type:n.FilterTypes.Picker},read_status:{value:"",label:"Read status",options:[{label:"All",value:""},{label:"Unread",value:"UNREAD"},{label:"Read",value:"READ"},{label:"In progress",value:"IN_PROGRESS"}],type:n.FilterTypes.Picker}},this.pluginSettings={email:{value:"",label:"Email",type:"Text"},password:{value:"",label:"Password"},url:{value:"",label:"URL"}}}return l.prototype.makeRequest=function(a){return t(this,void 0,void 0,(function(){return e(this,(function(t){switch(t.label){case 0:return[4,(0,r.fetchApi)(a,{headers:{Accept:"application/json, text/plain, */*","Content-Type":"application/json;charset=utf-8",Authorization:"Basic ".concat(this.btoa(this.email+":"+this.password))},Referer:this.site}).then((function(t){return t.text()}))];case 1:return[2,t.sent()]}}))}))},l.prototype.btoa=function(t){void 0===t&&(t="");for(var e=t,a="",r=0,n=void 0,s=0,i="ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/=";e.charAt(0|s)||(i="=",s%1);a+=i.charAt(63&r>>8-s%1*8)){if((n=e.charCodeAt(s+=3/4))>255)throw new Error("'btoa' failed: The string to be encoded contains characters outside of the Latin1 range.");r=r<<8|n}return a},l.prototype.flattenArray=function(t){var e=this;return t.reduce((function(t,r){var n=r.children,s=a(r,["children"]);return t.push(s),n&&t.push.apply(t,e.flattenArray(n)),t}),[])},l.prototype.getSeries=function(a){return t(this,void 0,void 0,(function(){var t,r,n,s,i,o;return e(this,(function(e){switch(e.label){case 0:return t=[],[4,this.makeRequest(a)];case 1:for(r=e.sent(),n=JSON.parse(r).content,s=0,i=n;s<i.length;s++)o=i[s],t.push({name:o.name,path:"api/v1/series/"+o.id,cover:this.site+"api/v1/series/".concat(o.id,"/thumbnail")});return[2,t]}}))}))},l.prototype.popularNovels=function(a,r){return t(this,arguments,void 0,(function(t,a){var r,n,s,i,o=a.showLatestNovels,l=a.filters;return e(this,(function(e){switch(e.label){case 0:return r=(null==l?void 0:l.read_status.value)?"&read_status="+(null==l?void 0:l.read_status.value):"",n=(null==l?void 0:l.status.value)?"&status="+(null==l?void 0:l.status.value):"",s=o?"lastModified,desc":"name,asc",i="".concat(this.site,"api/v1/series?page=").concat(t-1).concat(r).concat(n,"&sort=").concat(s),[4,this.getSeries(i)];case 1:return[2,e.sent()]}}))}))},l.prototype.parseNovel=function(a){return t(this,void 0,void 0,(function(){var t,r,n,i,o,l,u,c,h,p,f,v,d,b,g,m,y,w,O;return e(this,(function(e){switch(e.label){case 0:return t={path:a,name:"Untitled"},r=this.site+a,[4,this.makeRequest(r)];case 1:switch(n=e.sent(),i=JSON.parse(n),t.name=i.name,t.author=i.booksMetadata.authors.filter((function(t){return"writer"===t.role})).reduce((function(t,e){return t+(""!==t?", ":"")+e.name}),""),t.cover=this.site+"api/v1/series/".concat(i.id,"/thumbnail"),t.genres=i.metadata.genres.join(", "),i.metadata.status){case"ENDED":t.status=s.NovelStatus.Completed;break;case"ONGOING":t.status=s.NovelStatus.Ongoing;break;case"ABANDONED":t.status=s.NovelStatus.Cancelled;break;case"HIATUS":t.status=s.NovelStatus.OnHiatus;break;default:t.status=s.NovelStatus.Unknown}return t.summary=i.booksMetadata.summary,o=[],[4,this.makeRequest(this.site+"api/v1/series/".concat(i.id,"/books?unpaged=true"))];case 2:l=e.sent(),u=JSON.parse(l).content,c=0,h=u,e.label=3;case 3:return c<h.length?(p=h[c],[4,this.makeRequest(this.site+"opds/v2/books/".concat(p.id,"/manifest"))]):[3,6];case 4:for(f=e.sent(),v=JSON.parse(f),d=this.flattenArray(v.toc),b=1,g=function(t){var e=d.find((function(e){var a;return(null===(a=e.href)||void 0===a?void 0:a.split("#")[0])===t.href})),a=e?e.title:null;o.push({name:"".concat(b,"/").concat(v.readingOrder.length," - ").concat(p.metadata.title).concat(a?" - "+a:""),path:"opds/v2"+(null===(O=t.href)||void 0===O?void 0:O.split("opds/v2").pop())}),b++},m=0,y=v.readingOrder;m<y.length;m++)w=y[m],g(w);e.label=5;case 5:return c++,[3,3];case 6:return t.chapters=o,[2,t]}}))}))},l.prototype.parseChapter=function(a){return t(this,void 0,void 0,(function(){var t;return e(this,(function(e){switch(e.label){case 0:return[4,this.makeRequest(this.site+a)];case 1:return t=e.sent(),[2,this.addUrlToImageHref(t,this.site+a.split("/").slice(0,-1).join("/")+"/")]}}))}))},l.prototype.addUrlToImageHref=function(t,e){var a=(0,i.load)(t,{xmlMode:!0});return a("svg image").each((function(t,r){var n=a(r).attr("href")||a(r).attr("xlink:href"),s=a(r).attr("width"),i=a(r).attr("height");if(n){var o=a("<img />").attr({src:new URL(n,e).href,width:s||"",height:i||""});a(r).closest("svg").replaceWith(o)}})),a("img").each((function(t,r){var n=a(r).attr("src");n&&!n.startsWith("http")&&a(r).attr("src","".concat(e).concat(n))})),a("a").each((function(t,e){a(e).replaceWith(a(e).text())})),a.xml()},l.prototype.searchNovels=function(a,r){return t(this,void 0,void 0,(function(){var t;return e(this,(function(e){switch(e.label){case 0:return t="".concat(this.site,"api/v1/series?search=").concat(a,"&page=").concat(r-1),[4,this.getSeries(t)];case 1:return[2,e.sent()]}}))}))},l}();exports.default=new l;
+"use strict";
+var __awaiter = (this && this.__awaiter) || function (thisArg, _arguments, P, generator) {
+    function adopt(value) { return value instanceof P ? value : new P(function (resolve) { resolve(value); }); }
+    return new (P || (P = Promise))(function (resolve, reject) {
+        function fulfilled(value) { try { step(generator.next(value)); } catch (e) { reject(e); } }
+        function rejected(value) { try { step(generator["throw"](value)); } catch (e) { reject(e); } }
+        function step(result) { result.done ? resolve(result.value) : adopt(result.value).then(fulfilled, rejected); }
+        step((generator = generator.apply(thisArg, _arguments || [])).next());
+    });
+};
+var __generator = (this && this.__generator) || function (thisArg, body) {
+    var _ = { label: 0, sent: function() { if (t[0] & 1) throw t[1]; return t[1]; }, trys: [], ops: [] }, f, y, t, g = Object.create((typeof Iterator === "function" ? Iterator : Object).prototype);
+    return g.next = verb(0), g["throw"] = verb(1), g["return"] = verb(2), typeof Symbol === "function" && (g[Symbol.iterator] = function() { return this; }), g;
+    function verb(n) { return function (v) { return step([n, v]); }; }
+    function step(op) {
+        if (f) throw new TypeError("Generator is already executing.");
+        while (g && (g = 0, op[0] && (_ = 0)), _) try {
+            if (f = 1, y && (t = op[0] & 2 ? y["return"] : op[0] ? y["throw"] || ((t = y["return"]) && t.call(y), 0) : y.next) && !(t = t.call(y, op[1])).done) return t;
+            if (y = 0, t) op = [op[0] & 2, t.value];
+            switch (op[0]) {
+                case 0: case 1: t = op; break;
+                case 4: _.label++; return { value: op[1], done: false };
+                case 5: _.label++; y = op[1]; op = [0]; continue;
+                case 7: op = _.ops.pop(); _.trys.pop(); continue;
+                default:
+                    if (!(t = _.trys, t = t.length > 0 && t[t.length - 1]) && (op[0] === 6 || op[0] === 2)) { _ = 0; continue; }
+                    if (op[0] === 3 && (!t || (op[1] > t[0] && op[1] < t[3]))) { _.label = op[1]; break; }
+                    if (op[0] === 6 && _.label < t[1]) { _.label = t[1]; t = op; break; }
+                    if (t && _.label < t[2]) { _.label = t[2]; _.ops.push(op); break; }
+                    if (t[2]) _.ops.pop();
+                    _.trys.pop(); continue;
+            }
+            op = body.call(thisArg, _);
+        } catch (e) { op = [6, e]; y = 0; } finally { f = t = 0; }
+        if (op[0] & 5) throw op[1]; return { value: op[0] ? op[1] : void 0, done: true };
+    }
+};
+var __rest = (this && this.__rest) || function (s, e) {
+    var t = {};
+    for (var p in s) if (Object.prototype.hasOwnProperty.call(s, p) && e.indexOf(p) < 0)
+        t[p] = s[p];
+    if (s != null && typeof Object.getOwnPropertySymbols === "function")
+        for (var i = 0, p = Object.getOwnPropertySymbols(s); i < p.length; i++) {
+            if (e.indexOf(p[i]) < 0 && Object.prototype.propertyIsEnumerable.call(s, p[i]))
+                t[p[i]] = s[p[i]];
+        }
+    return t;
+};
+Object.defineProperty(exports, "__esModule", { value: true });
+var fetch_1 = require("@libs/fetch");
+var filterInputs_1 = require("@libs/filterInputs");
+var novelStatus_1 = require("@libs/novelStatus");
+var cheerio_1 = require("cheerio");
+var storage_1 = require("@libs/storage");
+var KomgaPlugin = /** @class */ (function () {
+    function KomgaPlugin() {
+        this.id = 'komga';
+        this.name = 'Komga';
+        this.icon = 'src/multi/komga/icon.png';
+        this.version = '1.0.2';
+        this.site = storage_1.storage.get('url');
+        this.email = storage_1.storage.get('email');
+        this.password = storage_1.storage.get('password');
+        this.filters = {
+            status: {
+                value: '',
+                label: 'Status',
+                options: [
+                    { label: 'All', value: '' },
+                    { label: 'Completed', value: novelStatus_1.NovelStatus.Completed },
+                    { label: 'Ongoing', value: novelStatus_1.NovelStatus.Ongoing },
+                    { label: 'Cancelled', value: novelStatus_1.NovelStatus.Cancelled },
+                    { label: 'OnHiatus', value: novelStatus_1.NovelStatus.OnHiatus },
+                ],
+                type: filterInputs_1.FilterTypes.Picker,
+            },
+            read_status: {
+                value: '',
+                label: 'Read status',
+                options: [
+                    { label: 'All', value: '' },
+                    { label: 'Unread', value: 'UNREAD' },
+                    { label: 'Read', value: 'READ' },
+                    { label: 'In progress', value: 'IN_PROGRESS' },
+                ],
+                type: filterInputs_1.FilterTypes.Picker,
+            },
+        };
+        this.pluginSettings = {
+            email: {
+                value: '',
+                label: 'Email',
+                type: 'Text',
+            },
+            password: {
+                value: '',
+                label: 'Password',
+            },
+            url: {
+                value: '',
+                label: 'URL',
+            },
+        };
+    }
+    KomgaPlugin.prototype.makeRequest = function (url) {
+        return __awaiter(this, void 0, void 0, function () {
+            return __generator(this, function (_a) {
+                switch (_a.label) {
+                    case 0: return [4 /*yield*/, (0, fetch_1.fetchApi)(url, {
+                            headers: {
+                                Accept: 'application/json, text/plain, */*',
+                                'Content-Type': 'application/json;charset=utf-8',
+                                'Authorization': "Basic ".concat(this.btoa(this.email + ':' + this.password)),
+                            },
+                            Referer: this.site,
+                        }).then(function (res) { return res.text(); })];
+                    case 1: return [2 /*return*/, _a.sent()];
+                }
+            });
+        });
+    };
+    KomgaPlugin.prototype.btoa = function (input) {
+        if (input === void 0) { input = ''; }
+        var chars = 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/=';
+        var str = input;
+        var output = '';
+        for (var block = 0, charCode = void 0, i = 0, map = chars; str.charAt(i | 0) || ((map = '='), i % 1); output += map.charAt(63 & (block >> (8 - (i % 1) * 8)))) {
+            charCode = str.charCodeAt((i += 3 / 4));
+            if (charCode > 0xff) {
+                throw new Error("'btoa' failed: The string to be encoded contains characters outside of the Latin1 range.");
+            }
+            block = (block << 8) | charCode;
+        }
+        return output;
+    };
+    KomgaPlugin.prototype.flattenArray = function (arr) {
+        var _this = this;
+        return arr.reduce(function (acc, obj) {
+            var children = obj.children, rest = __rest(obj, ["children"]);
+            acc.push(rest);
+            if (children) {
+                acc.push.apply(acc, _this.flattenArray(children));
+            }
+            return acc;
+        }, []);
+    };
+    KomgaPlugin.prototype.getSeries = function (url) {
+        return __awaiter(this, void 0, void 0, function () {
+            var novels, response, series, _i, series_1, s;
+            return __generator(this, function (_a) {
+                switch (_a.label) {
+                    case 0:
+                        novels = [];
+                        return [4 /*yield*/, this.makeRequest(url)];
+                    case 1:
+                        response = _a.sent();
+                        series = JSON.parse(response).content;
+                        for (_i = 0, series_1 = series; _i < series_1.length; _i++) {
+                            s = series_1[_i];
+                            novels.push({
+                                name: s.name,
+                                path: 'api/v1/series/' + s.id,
+                                cover: this.site + "api/v1/series/".concat(s.id, "/thumbnail"),
+                            });
+                        }
+                        return [2 /*return*/, novels];
+                }
+            });
+        });
+    };
+    KomgaPlugin.prototype.popularNovels = function (pageNo_1, _a) {
+        return __awaiter(this, arguments, void 0, function (pageNo, _b) {
+            var read_status, status, sort, url;
+            var showLatestNovels = _b.showLatestNovels, filters = _b.filters;
+            return __generator(this, function (_c) {
+                switch (_c.label) {
+                    case 0:
+                        read_status = (filters === null || filters === void 0 ? void 0 : filters.read_status.value)
+                            ? '&read_status=' + (filters === null || filters === void 0 ? void 0 : filters.read_status.value)
+                            : '';
+                        status = (filters === null || filters === void 0 ? void 0 : filters.status.value)
+                            ? '&status=' + (filters === null || filters === void 0 ? void 0 : filters.status.value)
+                            : '';
+                        sort = showLatestNovels ? 'lastModified,desc' : 'name,asc';
+                        url = "".concat(this.site, "api/v1/series?page=").concat(pageNo - 1).concat(read_status).concat(status, "&sort=").concat(sort);
+                        return [4 /*yield*/, this.getSeries(url)];
+                    case 1: return [2 /*return*/, _c.sent()];
+                }
+            });
+        });
+    };
+    KomgaPlugin.prototype.parseNovel = function (novelPath) {
+        return __awaiter(this, void 0, void 0, function () {
+            var novel, url, response, series, chapters, booksResponse, booksData, _i, booksData_1, book, bookManifestResponse, bookManifest, toc, i, _loop_1, _a, _b, page;
+            var _c;
+            return __generator(this, function (_d) {
+                switch (_d.label) {
+                    case 0:
+                        novel = {
+                            path: novelPath,
+                            name: 'Untitled',
+                        };
+                        url = this.site + novelPath;
+                        return [4 /*yield*/, this.makeRequest(url)];
+                    case 1:
+                        response = _d.sent();
+                        series = JSON.parse(response);
+                        novel.name = series.name;
+                        novel.author = series.booksMetadata.authors
+                            .filter(function (author) { return author.role === 'writer'; })
+                            .reduce(function (accumulated, current) {
+                            return accumulated + (accumulated !== '' ? ', ' : '') + current.name;
+                        }, '');
+                        novel.cover = this.site + "api/v1/series/".concat(series.id, "/thumbnail");
+                        novel.genres = series.metadata.genres.join(', ');
+                        switch (series.metadata.status) {
+                            case 'ENDED':
+                                novel.status = novelStatus_1.NovelStatus.Completed;
+                                break;
+                            case 'ONGOING':
+                                novel.status = novelStatus_1.NovelStatus.Ongoing;
+                                break;
+                            case 'ABANDONED':
+                                novel.status = novelStatus_1.NovelStatus.Cancelled;
+                                break;
+                            case 'HIATUS':
+                                novel.status = novelStatus_1.NovelStatus.OnHiatus;
+                                break;
+                            default:
+                                novel.status = novelStatus_1.NovelStatus.Unknown;
+                        }
+                        novel.summary = series.booksMetadata.summary;
+                        chapters = [];
+                        return [4 /*yield*/, this.makeRequest(this.site + "api/v1/series/".concat(series.id, "/books?unpaged=true"))];
+                    case 2:
+                        booksResponse = _d.sent();
+                        booksData = JSON.parse(booksResponse).content;
+                        _i = 0, booksData_1 = booksData;
+                        _d.label = 3;
+                    case 3:
+                        if (!(_i < booksData_1.length)) return [3 /*break*/, 6];
+                        book = booksData_1[_i];
+                        return [4 /*yield*/, this.makeRequest(this.site + "opds/v2/books/".concat(book.id, "/manifest"))];
+                    case 4:
+                        bookManifestResponse = _d.sent();
+                        bookManifest = JSON.parse(bookManifestResponse);
+                        toc = this.flattenArray(bookManifest.toc);
+                        i = 1;
+                        _loop_1 = function (page) {
+                            var tocItem = toc.find(function (v) { var _a; return ((_a = v.href) === null || _a === void 0 ? void 0 : _a.split('#')[0]) === page.href; });
+                            var title = tocItem ? tocItem.title : null;
+                            chapters.push({
+                                name: "".concat(i, "/").concat(bookManifest.readingOrder.length, " - ").concat(book.metadata.title).concat(title ? ' - ' + title : ''),
+                                path: 'opds/v2' + ((_c = page.href) === null || _c === void 0 ? void 0 : _c.split('opds/v2').pop()),
+                            });
+                            i++;
+                        };
+                        for (_a = 0, _b = bookManifest.readingOrder; _a < _b.length; _a++) {
+                            page = _b[_a];
+                            _loop_1(page);
+                        }
+                        _d.label = 5;
+                    case 5:
+                        _i++;
+                        return [3 /*break*/, 3];
+                    case 6:
+                        novel.chapters = chapters;
+                        return [2 /*return*/, novel];
+                }
+            });
+        });
+    };
+    KomgaPlugin.prototype.parseChapter = function (chapterPath) {
+        return __awaiter(this, void 0, void 0, function () {
+            var chapterText;
+            return __generator(this, function (_a) {
+                switch (_a.label) {
+                    case 0: return [4 /*yield*/, this.makeRequest(this.site + chapterPath)];
+                    case 1:
+                        chapterText = _a.sent();
+                        return [2 /*return*/, this.addUrlToImageHref(chapterText, this.site + chapterPath.split('/').slice(0, -1).join('/') + '/')];
+                }
+            });
+        });
+    };
+    // Convert images to <img> tag and correct url
+    KomgaPlugin.prototype.addUrlToImageHref = function (htmlString, baseUrl) {
+        var $ = (0, cheerio_1.load)(htmlString, { xmlMode: true });
+        // Convert SVG <image> elements to <img> and add baseUrl if necessary
+        $('svg image').each(function (_, image) {
+            var href = $(image).attr('href') || $(image).attr('xlink:href');
+            var width = $(image).attr('width');
+            var height = $(image).attr('height');
+            if (href) {
+                var img = $('<img />').attr({
+                    src: new URL(href, baseUrl).href,
+                    width: width || '',
+                    height: height || '',
+                });
+                $(image).closest('svg').replaceWith(img);
+            }
+        });
+        // Update <img> elements to include the base URL if their src is relative
+        $('img').each(function (_, img) {
+            var src = $(img).attr('src');
+            if (src && !src.startsWith('http')) {
+                $(img).attr('src', "".concat(baseUrl).concat(src));
+            }
+        });
+        // Replace <a> tags with the text inside so its not blue
+        $('a').each(function (_, a) {
+            $(a).replaceWith($(a).text());
+        });
+        return $.xml();
+    };
+    KomgaPlugin.prototype.searchNovels = function (searchTerm, pageNo) {
+        return __awaiter(this, void 0, void 0, function () {
+            var url;
+            return __generator(this, function (_a) {
+                switch (_a.label) {
+                    case 0:
+                        url = "".concat(this.site, "api/v1/series?search=").concat(searchTerm, "&page=").concat(pageNo - 1);
+                        return [4 /*yield*/, this.getSeries(url)];
+                    case 1: return [2 /*return*/, _a.sent()];
+                }
+            });
+        });
+    };
+    return KomgaPlugin;
+}());
+exports.default = new KomgaPlugin();

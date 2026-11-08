@@ -1,1 +1,276 @@
-var t=this&&this.__awaiter||function(t,e,n,r){return new(n||(n=Promise))((function(o,i){function a(t){try{s(r.next(t))}catch(t){i(t)}}function c(t){try{s(r.throw(t))}catch(t){i(t)}}function s(t){var e;t.done?o(t.value):(e=t.value,e instanceof n?e:new n((function(t){t(e)}))).then(a,c)}s((r=r.apply(t,e||[])).next())}))},e=this&&this.__generator||function(t,e){var n,r,o,i={label:0,sent:function(){if(1&o[0])throw o[1];return o[1]},trys:[],ops:[]},a=Object.create(("function"==typeof Iterator?Iterator:Object).prototype);return a.next=c(0),a.throw=c(1),a.return=c(2),"function"==typeof Symbol&&(a[Symbol.iterator]=function(){return this}),a;function c(c){return function(s){return function(c){if(n)throw new TypeError("Generator is already executing.");for(;a&&(a=0,c[0]&&(i=0)),i;)try{if(n=1,r&&(o=2&c[0]?r.return:c[0]?r.throw||((o=r.return)&&o.call(r),0):r.next)&&!(o=o.call(r,c[1])).done)return o;switch(r=0,o&&(c=[2&c[0],o.value]),c[0]){case 0:case 1:o=c;break;case 4:return i.label++,{value:c[1],done:!1};case 5:i.label++,r=c[1],c=[0];continue;case 7:c=i.ops.pop(),i.trys.pop();continue;default:if(!(o=i.trys,(o=o.length>0&&o[o.length-1])||6!==c[0]&&2!==c[0])){i=0;continue}if(3===c[0]&&(!o||c[1]>o[0]&&c[1]<o[3])){i.label=c[1];break}if(6===c[0]&&i.label<o[1]){i.label=o[1],o=c;break}if(o&&i.label<o[2]){i.label=o[2],i.ops.push(c);break}o[2]&&i.ops.pop(),i.trys.pop();continue}c=e.call(t,i)}catch(t){c=[6,t],r=0}finally{n=o=0}if(5&c[0])throw c[1];return{value:c[0]?c[1]:void 0,done:!0}}([c,s])}}};Object.defineProperty(exports,"__esModule",{value:!0});var n=require("@libs/fetch"),r=require("@libs/filterInputs"),o=require("@libs/novelStatus"),i=require("@libs/defaultCover"),a="Cloudflare protection detected (HTTP error). Please try opening the plugin in WebView first to solve the challenge.",c={"":void 0,ai:"ai",cv:"convert"},s=function(){function s(){var t=this;this.id="truyendich",this.name="TruyenDich",this.icon="src/vi/truyendich/icon.png",this.site="https://truyendich.space",this.version="1.0.0",this.resolveUrl=function(e){return t.site+"/"+e.replace(/^\//,"")},this.filters={list:{type:r.FilterTypes.Picker,label:"List",value:"truyen-hot",options:[{label:"Hot",value:"truyen-hot"},{label:"New",value:"truyen-moi"},{label:"Translated",value:"truyen-dich"},{label:"AI translated",value:"truyen-dich-ai"},{label:"Convert",value:"truyen-convert"},{label:"Completed",value:"truyen-full"}]},edition:{type:r.FilterTypes.Picker,label:"Edition",value:"",options:[{label:"Default (translated if available)",value:""},{label:"AI translated",value:"ai"},{label:"Convert",value:"cv"}]}}}return s.prototype.getJson=function(r){return t(this,void 0,void 0,(function(){var t,o,i;return e(this,(function(e){switch(e.label){case 0:return[4,(0,n.fetchApi)(this.site+r)];case 1:if(429===(t=e.sent()).status)throw new Error("truyendich.space rate limited the request (HTTP 429), try again later.");return[4,t.text()];case 2:o=e.sent();try{i=JSON.parse(o)}catch(e){throw new Error("".concat(r," -> HTTP ").concat(t.status,", not JSON"))}if("VERIFY_HUMAN"===(null==i?void 0:i.detail))throw new Error(a);if(!t.ok)throw new Error("".concat(r," -> HTTP ").concat(t.status));return[2,i]}}))}))},s.prototype.novelPath=function(t,e){return"doc-truyen/"+(e?e+"/":"")+t},s.prototype.parsePath=function(t){var e=t.match(/^\/?doc-truyen\/(?:(ai|cv)\/)?([^/]+)/);if(!e)throw new Error("Unrecognised path: "+t);return{slug:e[2],edition:e[1]||""}},s.prototype.toNovelItem=function(t,e){return{name:t.title,path:this.novelPath(t.slug,e),cover:t.image_url?this.site+t.image_url:i.defaultCover}},s.prototype.popularNovels=function(n,r){return t(this,arguments,void 0,(function(t,n){var r,o,i=this,a=n.showLatestNovels,c=n.filters;return e(this,(function(e){switch(e.label){case 0:return r=a?"truyen-moi":c.list.value,o=c.edition.value,[4,this.getJson("/api/lists/".concat(r,"?page=").concat(t,"&size=24"))];case 1:return[2,e.sent().items.map((function(t){return i.toNovelItem(t,o)}))]}}))}))},s.prototype.parseNovel=function(n){return t(this,void 0,void 0,(function(){var t,r,a,s,u,l,h,p,v,f,d,b,y,m,g,w,_,P=this;return e(this,(function(e){switch(e.label){case 0:return t=this.parsePath(n),r=t.slug,a=t.edition,[4,this.getJson("/api/novels/".concat(encodeURIComponent(r)))];case 1:return s=e.sent(),u={path:n,name:s.title,cover:s.image_url?this.site+s.image_url:i.defaultCover,author:s.author||void 0,genres:(null===(_=s.categories)||void 0===_?void 0:_.map((function(t){return t.name})).join(", "))||void 0,summary:s.description?s.description.replace(/<br\s*\/?>/gi,"\n").replace(/<\/p>/gi,"\n").replace(/<[^>]+>/g,"").replace(/\n{3,}/g,"\n\n").trim():void 0,status:"ongoing"===s.status?o.NovelStatus.Ongoing:"completed"===s.status?o.NovelStatus.Completed:o.NovelStatus.Unknown},l=200,h=4,p=c[a]?"&edition_type="+c[a]:"",v=function(t){return"/api/novels/".concat(encodeURIComponent(r),"/chapters?page=").concat(t,"&size=").concat(l).concat(p)},[4,this.getJson(v(1))];case 2:f=e.sent(),d=[f.items],b=Math.ceil(f.total/l),y=2,e.label=3;case 3:if(!(y<=b))return[3,6];for(m=[],g=y;g<y+h&&g<=b;g++)m.push(this.getJson(v(g)));return[4,Promise.all(m)];case 4:w=e.sent(),d.push.apply(d,w.map((function(t){return t.items}))),e.label=5;case 5:return y+=h,[3,3];case 6:return u.chapters=d.flat().sort((function(t,e){return t.chapter_number-e.chapter_number})).map((function(t){return{name:t.title?"Chapter ".concat(t.chapter_number,": ").concat(t.title):"Chapter ".concat(t.chapter_number),path:"".concat(P.novelPath(r,a),"/chuong-").concat(t.chapter_number),chapterNumber:t.chapter_number,releaseTime:t.update_time||void 0}})),[2,u]}}))}))},s.prototype.parseChapter=function(n){return t(this,void 0,void 0,(function(){var t,r,o,i,s,u,l,h;return e(this,(function(e){switch(e.label){case 0:if(t=this.parsePath(n),r=t.slug,o=t.edition,!(i=null===(h=n.match(/\/chuong-(\d+)\s*$/))||void 0===h?void 0:h[1]))throw new Error("Unrecognised chapter path: "+n);return s=c[o]?"?edition_type="+c[o]:"",[4,this.getJson("/api/novels/".concat(encodeURIComponent(r),"/chapters/").concat(i).concat(s))];case 1:if(!(u=e.sent()).content&&u.trust_challenge)throw new Error(a);return l=(u.content||"").replace(/<\/?content>/gi,"").trim(),/<(br|p)\b/i.test(l)||(l=l.replace(/\n/g,"<br>")),[2,l]}}))}))},s.prototype.searchNovels=function(n,r){return t(this,void 0,void 0,(function(){var t=this;return e(this,(function(e){switch(e.label){case 0:return[4,this.getJson("/api/novels/search?q=".concat(encodeURIComponent(n),"&page=").concat(r,"&size=24"))];case 1:return[2,e.sent().items.map((function(e){return t.toNovelItem(e,"")}))]}}))}))},s}();exports.default=new s;
+"use strict";
+var __awaiter = (this && this.__awaiter) || function (thisArg, _arguments, P, generator) {
+    function adopt(value) { return value instanceof P ? value : new P(function (resolve) { resolve(value); }); }
+    return new (P || (P = Promise))(function (resolve, reject) {
+        function fulfilled(value) { try { step(generator.next(value)); } catch (e) { reject(e); } }
+        function rejected(value) { try { step(generator["throw"](value)); } catch (e) { reject(e); } }
+        function step(result) { result.done ? resolve(result.value) : adopt(result.value).then(fulfilled, rejected); }
+        step((generator = generator.apply(thisArg, _arguments || [])).next());
+    });
+};
+var __generator = (this && this.__generator) || function (thisArg, body) {
+    var _ = { label: 0, sent: function() { if (t[0] & 1) throw t[1]; return t[1]; }, trys: [], ops: [] }, f, y, t, g = Object.create((typeof Iterator === "function" ? Iterator : Object).prototype);
+    return g.next = verb(0), g["throw"] = verb(1), g["return"] = verb(2), typeof Symbol === "function" && (g[Symbol.iterator] = function() { return this; }), g;
+    function verb(n) { return function (v) { return step([n, v]); }; }
+    function step(op) {
+        if (f) throw new TypeError("Generator is already executing.");
+        while (g && (g = 0, op[0] && (_ = 0)), _) try {
+            if (f = 1, y && (t = op[0] & 2 ? y["return"] : op[0] ? y["throw"] || ((t = y["return"]) && t.call(y), 0) : y.next) && !(t = t.call(y, op[1])).done) return t;
+            if (y = 0, t) op = [op[0] & 2, t.value];
+            switch (op[0]) {
+                case 0: case 1: t = op; break;
+                case 4: _.label++; return { value: op[1], done: false };
+                case 5: _.label++; y = op[1]; op = [0]; continue;
+                case 7: op = _.ops.pop(); _.trys.pop(); continue;
+                default:
+                    if (!(t = _.trys, t = t.length > 0 && t[t.length - 1]) && (op[0] === 6 || op[0] === 2)) { _ = 0; continue; }
+                    if (op[0] === 3 && (!t || (op[1] > t[0] && op[1] < t[3]))) { _.label = op[1]; break; }
+                    if (op[0] === 6 && _.label < t[1]) { _.label = t[1]; t = op; break; }
+                    if (t && _.label < t[2]) { _.label = t[2]; _.ops.push(op); break; }
+                    if (t[2]) _.ops.pop();
+                    _.trys.pop(); continue;
+            }
+            op = body.call(thisArg, _);
+        } catch (e) { op = [6, e]; y = 0; } finally { f = t = 0; }
+        if (op[0] & 5) throw op[1]; return { value: op[0] ? op[1] : void 0, done: true };
+    }
+};
+Object.defineProperty(exports, "__esModule", { value: true });
+var fetch_1 = require("@libs/fetch");
+var filterInputs_1 = require("@libs/filterInputs");
+var novelStatus_1 = require("@libs/novelStatus");
+var defaultCover_1 = require("@libs/defaultCover");
+var VERIFY_MESSAGE = 'Cloudflare protection detected (HTTP error). Please try opening the plugin in WebView first to solve the challenge.';
+var EDITION_TYPE = {
+    '': undefined,
+    ai: 'ai',
+    cv: 'convert',
+};
+var TruyenDichPlugin = /** @class */ (function () {
+    function TruyenDichPlugin() {
+        var _this = this;
+        this.id = 'truyendich';
+        this.name = 'TruyenDich';
+        this.icon = 'src/vi/truyendich/icon.png';
+        this.site = 'https://truyendich.space';
+        this.version = '1.0.0';
+        this.resolveUrl = function (path) { return _this.site + '/' + path.replace(/^\//, ''); };
+        this.filters = {
+            list: {
+                type: filterInputs_1.FilterTypes.Picker,
+                label: 'List',
+                value: 'truyen-hot',
+                options: [
+                    { label: 'Hot', value: 'truyen-hot' },
+                    { label: 'New', value: 'truyen-moi' },
+                    { label: 'Translated', value: 'truyen-dich' },
+                    { label: 'AI translated', value: 'truyen-dich-ai' },
+                    { label: 'Convert', value: 'truyen-convert' },
+                    { label: 'Completed', value: 'truyen-full' },
+                ],
+            },
+            edition: {
+                type: filterInputs_1.FilterTypes.Picker,
+                label: 'Edition',
+                value: '',
+                options: [
+                    { label: 'Default (translated if available)', value: '' },
+                    { label: 'AI translated', value: 'ai' },
+                    { label: 'Convert', value: 'cv' },
+                ],
+            },
+        };
+    }
+    TruyenDichPlugin.prototype.getJson = function (path) {
+        return __awaiter(this, void 0, void 0, function () {
+            var res, body, data;
+            return __generator(this, function (_a) {
+                switch (_a.label) {
+                    case 0: return [4 /*yield*/, (0, fetch_1.fetchApi)(this.site + path)];
+                    case 1:
+                        res = _a.sent();
+                        if (res.status === 429) {
+                            throw new Error('truyendich.space rate limited the request (HTTP 429), try again later.');
+                        }
+                        return [4 /*yield*/, res.text()];
+                    case 2:
+                        body = _a.sent();
+                        try {
+                            data = JSON.parse(body);
+                        }
+                        catch (_b) {
+                            throw new Error("".concat(path, " -> HTTP ").concat(res.status, ", not JSON"));
+                        }
+                        if ((data === null || data === void 0 ? void 0 : data.detail) === 'VERIFY_HUMAN') {
+                            throw new Error(VERIFY_MESSAGE);
+                        }
+                        if (!res.ok) {
+                            throw new Error("".concat(path, " -> HTTP ").concat(res.status));
+                        }
+                        return [2 /*return*/, data];
+                }
+            });
+        });
+    };
+    TruyenDichPlugin.prototype.novelPath = function (slug, edition) {
+        return 'doc-truyen/' + (edition ? edition + '/' : '') + slug;
+    };
+    TruyenDichPlugin.prototype.parsePath = function (novelPath) {
+        var m = novelPath.match(/^\/?doc-truyen\/(?:(ai|cv)\/)?([^/]+)/);
+        if (!m) {
+            throw new Error('Unrecognised path: ' + novelPath);
+        }
+        return { slug: m[2], edition: m[1] || '' };
+    };
+    TruyenDichPlugin.prototype.toNovelItem = function (item, edition) {
+        return {
+            name: item.title,
+            path: this.novelPath(item.slug, edition),
+            cover: item.image_url ? this.site + item.image_url : defaultCover_1.defaultCover,
+        };
+    };
+    TruyenDichPlugin.prototype.popularNovels = function (pageNo_1, _a) {
+        return __awaiter(this, arguments, void 0, function (pageNo, _b) {
+            var list, edition, page;
+            var _this = this;
+            var showLatestNovels = _b.showLatestNovels, filters = _b.filters;
+            return __generator(this, function (_c) {
+                switch (_c.label) {
+                    case 0:
+                        list = showLatestNovels ? 'truyen-moi' : filters.list.value;
+                        edition = filters.edition.value;
+                        return [4 /*yield*/, this.getJson("/api/lists/".concat(list, "?page=").concat(pageNo, "&size=24"))];
+                    case 1:
+                        page = _c.sent();
+                        return [2 /*return*/, page.items.map(function (item) { return _this.toNovelItem(item, edition); })];
+                }
+            });
+        });
+    };
+    TruyenDichPlugin.prototype.parseNovel = function (novelPath) {
+        return __awaiter(this, void 0, void 0, function () {
+            var _a, slug, edition, data, novel, PAGE_SIZE, CONCURRENT_PAGES, editionQuery, chaptersUrl, first, pages, pageCount, p, batch, q, results;
+            var _this = this;
+            var _b;
+            return __generator(this, function (_c) {
+                switch (_c.label) {
+                    case 0:
+                        _a = this.parsePath(novelPath), slug = _a.slug, edition = _a.edition;
+                        return [4 /*yield*/, this.getJson("/api/novels/".concat(encodeURIComponent(slug)))];
+                    case 1:
+                        data = _c.sent();
+                        novel = {
+                            path: novelPath,
+                            name: data.title,
+                            cover: data.image_url ? this.site + data.image_url : defaultCover_1.defaultCover,
+                            author: data.author || undefined,
+                            genres: ((_b = data.categories) === null || _b === void 0 ? void 0 : _b.map(function (c) { return c.name; }).join(', ')) || undefined,
+                            summary: data.description
+                                ? data.description
+                                    .replace(/<br\s*\/?>/gi, '\n')
+                                    .replace(/<\/p>/gi, '\n')
+                                    .replace(/<[^>]+>/g, '')
+                                    .replace(/\n{3,}/g, '\n\n')
+                                    .trim()
+                                : undefined,
+                            status: data.status === 'ongoing'
+                                ? novelStatus_1.NovelStatus.Ongoing
+                                : data.status === 'completed'
+                                    ? novelStatus_1.NovelStatus.Completed
+                                    : novelStatus_1.NovelStatus.Unknown,
+                        };
+                        PAGE_SIZE = 200;
+                        CONCURRENT_PAGES = 4;
+                        editionQuery = EDITION_TYPE[edition]
+                            ? '&edition_type=' + EDITION_TYPE[edition]
+                            : '';
+                        chaptersUrl = function (page) {
+                            return "/api/novels/".concat(encodeURIComponent(slug), "/chapters?page=").concat(page, "&size=").concat(PAGE_SIZE).concat(editionQuery);
+                        };
+                        return [4 /*yield*/, this.getJson(chaptersUrl(1))];
+                    case 2:
+                        first = _c.sent();
+                        pages = [first.items];
+                        pageCount = Math.ceil(first.total / PAGE_SIZE);
+                        p = 2;
+                        _c.label = 3;
+                    case 3:
+                        if (!(p <= pageCount)) return [3 /*break*/, 6];
+                        batch = [];
+                        for (q = p; q < p + CONCURRENT_PAGES && q <= pageCount; q++) {
+                            batch.push(this.getJson(chaptersUrl(q)));
+                        }
+                        return [4 /*yield*/, Promise.all(batch)];
+                    case 4:
+                        results = _c.sent();
+                        pages.push.apply(pages, results.map(function (r) { return r.items; }));
+                        _c.label = 5;
+                    case 5:
+                        p += CONCURRENT_PAGES;
+                        return [3 /*break*/, 3];
+                    case 6:
+                        novel.chapters = pages
+                            .flat()
+                            .sort(function (a, b) { return a.chapter_number - b.chapter_number; })
+                            .map(function (ch) { return ({
+                            name: ch.title
+                                ? "Chapter ".concat(ch.chapter_number, ": ").concat(ch.title)
+                                : "Chapter ".concat(ch.chapter_number),
+                            path: "".concat(_this.novelPath(slug, edition), "/chuong-").concat(ch.chapter_number),
+                            chapterNumber: ch.chapter_number,
+                            releaseTime: ch.update_time || undefined,
+                        }); });
+                        return [2 /*return*/, novel];
+                }
+            });
+        });
+    };
+    TruyenDichPlugin.prototype.parseChapter = function (chapterPath) {
+        return __awaiter(this, void 0, void 0, function () {
+            var _a, slug, edition, num, editionQuery, data, content;
+            var _b;
+            return __generator(this, function (_c) {
+                switch (_c.label) {
+                    case 0:
+                        _a = this.parsePath(chapterPath), slug = _a.slug, edition = _a.edition;
+                        num = (_b = chapterPath.match(/\/chuong-(\d+)\s*$/)) === null || _b === void 0 ? void 0 : _b[1];
+                        if (!num) {
+                            throw new Error('Unrecognised chapter path: ' + chapterPath);
+                        }
+                        editionQuery = EDITION_TYPE[edition]
+                            ? '?edition_type=' + EDITION_TYPE[edition]
+                            : '';
+                        return [4 /*yield*/, this.getJson("/api/novels/".concat(encodeURIComponent(slug), "/chapters/").concat(num).concat(editionQuery))];
+                    case 1:
+                        data = _c.sent();
+                        // After a few chapters the site returns an empty body and asks for a
+                        // Turnstile check; the app's WebView shares its cookies with fetchApi.
+                        if (!data.content && data.trust_challenge) {
+                            throw new Error(VERIFY_MESSAGE);
+                        }
+                        content = (data.content || '').replace(/<\/?content>/gi, '').trim();
+                        if (!/<(br|p)\b/i.test(content)) {
+                            content = content.replace(/\n/g, '<br>');
+                        }
+                        return [2 /*return*/, content];
+                }
+            });
+        });
+    };
+    TruyenDichPlugin.prototype.searchNovels = function (searchTerm, pageNo) {
+        return __awaiter(this, void 0, void 0, function () {
+            var page;
+            var _this = this;
+            return __generator(this, function (_a) {
+                switch (_a.label) {
+                    case 0: return [4 /*yield*/, this.getJson("/api/novels/search?q=".concat(encodeURIComponent(searchTerm), "&page=").concat(pageNo, "&size=24"))];
+                    case 1:
+                        page = _a.sent();
+                        return [2 /*return*/, page.items.map(function (item) { return _this.toNovelItem(item, ''); })];
+                }
+            });
+        });
+    };
+    return TruyenDichPlugin;
+}());
+exports.default = new TruyenDichPlugin();
