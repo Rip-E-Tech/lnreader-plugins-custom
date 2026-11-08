@@ -1428,7 +1428,7 @@
 		"name": "Ragnar Scans",
 		"site": "https://ragnarscans.net",
 		"lang": "Türkçe",
-		"version": "1.0.2",
+		"version": "1.0.3",
 		"url": "https://raw.githubusercontent.com/Rip-E-Tech/lnreader-plugins-custom/plugins/.js/plugins/turkish/ragnarscans.js",
 		"iconUrl": "https://raw.githubusercontent.com/Rip-E-Tech/lnreader-plugins-custom/master/public/static/src/tr/ragnarscans/icon.png"
 	},
