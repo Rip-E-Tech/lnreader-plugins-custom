@@ -5,7 +5,7 @@
 		"site": "https://azorafly.com/",
 		"lang": "‎العربية",
 		"version": "1.0.0",
-		"url": "https://raw.githubusercontent.com/Rip-E-Tech/lnreader-plugins-custom/plugins/.js/plugins/arabic/azorafly.js",
+		"url": "https://raw.githubusercontent.com/Rip-E-Tech/lnreader-plugins-custom/master/.js/src/plugins/arabic/azorafly.js",
 		"iconUrl": "https://raw.githubusercontent.com/Rip-E-Tech/lnreader-plugins-custom/master/public/static/src/ar/azorafly/icon.png"
 	},
 	{
@@ -14,7 +14,7 @@
 		"site": "https://golden.rest/",
 		"lang": "‎العربية",
 		"version": "1.0.2",
-		"url": "https://raw.githubusercontent.com/Rip-E-Tech/lnreader-plugins-custom/plugins/.js/plugins/arabic/dilartube.js",
+		"url": "https://raw.githubusercontent.com/Rip-E-Tech/lnreader-plugins-custom/master/.js/src/plugins/arabic/dilartube.js",
 		"iconUrl": "https://raw.githubusercontent.com/Rip-E-Tech/lnreader-plugins-custom/master/public/static/src/ar/dilartube/icon.png"
 	},
 	{
@@ -23,7 +23,7 @@
 		"site": "https://galaxynovels.com/",
 		"lang": "‎العربية",
 		"version": "1.1.1",
-		"url": "https://raw.githubusercontent.com/Rip-E-Tech/lnreader-plugins-custom/plugins/.js/plugins/arabic/galaxynovels.js",
+		"url": "https://raw.githubusercontent.com/Rip-E-Tech/lnreader-plugins-custom/master/.js/src/plugins/arabic/galaxynovels.js",
 		"iconUrl": "https://raw.githubusercontent.com/Rip-E-Tech/lnreader-plugins-custom/master/public/static/src/ar/galaxynovels/icon.png"
 	},
 	{
@@ -32,7 +32,7 @@
 		"site": "https://mknov.com",
 		"lang": "‎العربية",
 		"version": "1.0.0",
-		"url": "https://raw.githubusercontent.com/Rip-E-Tech/lnreader-plugins-custom/plugins/.js/plugins/arabic/mknov.js",
+		"url": "https://raw.githubusercontent.com/Rip-E-Tech/lnreader-plugins-custom/master/.js/src/plugins/arabic/mknov.js",
 		"iconUrl": "https://raw.githubusercontent.com/Rip-E-Tech/lnreader-plugins-custom/master/public/static/src/ar/mknov/icon.png"
 	},
 	{
@@ -41,7 +41,7 @@
 		"site": "https://mtlarabic.com",
 		"lang": "‎العربية",
 		"version": "1.0.0",
-		"url": "https://raw.githubusercontent.com/Rip-E-Tech/lnreader-plugins-custom/plugins/.js/plugins/arabic/mtlarabic.js",
+		"url": "https://raw.githubusercontent.com/Rip-E-Tech/lnreader-plugins-custom/master/.js/src/plugins/arabic/mtlarabic.js",
 		"iconUrl": "https://raw.githubusercontent.com/Rip-E-Tech/lnreader-plugins-custom/master/public/static/src/ar/mtlarabic/icon.png"
 	},
 	{
@@ -50,7 +50,7 @@
 		"site": "https://rewayahfans.net/",
 		"lang": "‎العربية",
 		"version": "1.0.0",
-		"url": "https://raw.githubusercontent.com/Rip-E-Tech/lnreader-plugins-custom/plugins/.js/plugins/arabic/rewayahfans.js",
+		"url": "https://raw.githubusercontent.com/Rip-E-Tech/lnreader-plugins-custom/master/.js/src/plugins/arabic/rewayahfans.js",
 		"iconUrl": "https://raw.githubusercontent.com/Rip-E-Tech/lnreader-plugins-custom/master/public/static/src/ar/rewayahfans/icon.png"
 	},
 	{
@@ -59,7 +59,7 @@
 		"site": "https://rewayat.club/",
 		"lang": "‎العربية",
 		"version": "1.0.3",
-		"url": "https://raw.githubusercontent.com/Rip-E-Tech/lnreader-plugins-custom/plugins/.js/plugins/arabic/rewayatclub.js",
+		"url": "https://raw.githubusercontent.com/Rip-E-Tech/lnreader-plugins-custom/master/.js/src/plugins/arabic/rewayatclub.js",
 		"iconUrl": "https://raw.githubusercontent.com/Rip-E-Tech/lnreader-plugins-custom/master/public/static/src/ar/rewayatclub/icon.png"
 	},
 	{
@@ -68,7 +68,7 @@
 		"site": "https://rewayatfans.com/",
 		"lang": "‎العربية",
 		"version": "4.2.0",
-		"url": "https://raw.githubusercontent.com/Rip-E-Tech/lnreader-plugins-custom/plugins/.js/plugins/arabic/rewayatfans.js",
+		"url": "https://raw.githubusercontent.com/Rip-E-Tech/lnreader-plugins-custom/master/.js/src/plugins/arabic/rewayatfans.js",
 		"iconUrl": "https://raw.githubusercontent.com/Rip-E-Tech/lnreader-plugins-custom/master/public/static/src/ar/rewayatfans/icon.png"
 	},
 	{
@@ -77,7 +77,7 @@
 		"site": "https://seanovel.org/",
 		"lang": "‎العربية",
 		"version": "1.2.0",
-		"url": "https://raw.githubusercontent.com/Rip-E-Tech/lnreader-plugins-custom/plugins/.js/plugins/arabic/seanovel.js",
+		"url": "https://raw.githubusercontent.com/Rip-E-Tech/lnreader-plugins-custom/master/.js/src/plugins/arabic/seanovel.js",
 		"iconUrl": "https://raw.githubusercontent.com/Rip-E-Tech/lnreader-plugins-custom/master/public/static/src/ar/seanovel/icon.png"
 	},
 	{
@@ -86,7 +86,7 @@
 		"site": "https://sunovels.com/",
 		"lang": "‎العربية",
 		"version": "1.0.1",
-		"url": "https://raw.githubusercontent.com/Rip-E-Tech/lnreader-plugins-custom/plugins/.js/plugins/arabic/sunovels.js",
+		"url": "https://raw.githubusercontent.com/Rip-E-Tech/lnreader-plugins-custom/master/.js/src/plugins/arabic/sunovels.js",
 		"iconUrl": "https://raw.githubusercontent.com/Rip-E-Tech/lnreader-plugins-custom/master/public/static/src/ar/sunovels/icon.png"
 	},
 	{
@@ -95,7 +95,7 @@
 		"site": "https://golpercity.blogspot.com",
 		"lang": "বাংলা",
 		"version": "1.0.0",
-		"url": "https://raw.githubusercontent.com/Rip-E-Tech/lnreader-plugins-custom/plugins/.js/plugins/bangla/golpercity.js",
+		"url": "https://raw.githubusercontent.com/Rip-E-Tech/lnreader-plugins-custom/master/.js/src/plugins/bangla/golpercity.js",
 		"iconUrl": "https://raw.githubusercontent.com/Rip-E-Tech/lnreader-plugins-custom/master/public/static/src/bn/golpercity/icon.png"
 	},
 	{
@@ -104,7 +104,7 @@
 		"site": "https://www.69shu.xyz",
 		"lang": "中文, 汉语, 漢語",
 		"version": "0.2.2",
-		"url": "https://raw.githubusercontent.com/Rip-E-Tech/lnreader-plugins-custom/plugins/.js/plugins/chinese/69shu.js",
+		"url": "https://raw.githubusercontent.com/Rip-E-Tech/lnreader-plugins-custom/master/.js/src/plugins/chinese/69shu.js",
 		"iconUrl": "https://raw.githubusercontent.com/Rip-E-Tech/lnreader-plugins-custom/master/public/static/src/cn/69shu/icon.png"
 	},
 	{
@@ -113,7 +113,7 @@
 		"site": "https://ixdzs8.com/",
 		"lang": "中文, 汉语, 漢語",
 		"version": "2.2.9",
-		"url": "https://raw.githubusercontent.com/Rip-E-Tech/lnreader-plugins-custom/plugins/.js/plugins/chinese/ixdzs8.js",
+		"url": "https://raw.githubusercontent.com/Rip-E-Tech/lnreader-plugins-custom/master/.js/src/plugins/chinese/ixdzs8.js",
 		"iconUrl": "https://raw.githubusercontent.com/Rip-E-Tech/lnreader-plugins-custom/master/public/static/src/cn/ixdzs8/favicon.png"
 	},
 	{
@@ -122,7 +122,7 @@
 		"site": "https://www.lewenn.com/",
 		"lang": "中文, 汉语, 漢語",
 		"version": "1.0.0",
-		"url": "https://raw.githubusercontent.com/Rip-E-Tech/lnreader-plugins-custom/plugins/.js/plugins/chinese/lewenn.js",
+		"url": "https://raw.githubusercontent.com/Rip-E-Tech/lnreader-plugins-custom/master/.js/src/plugins/chinese/lewenn.js",
 		"iconUrl": "https://raw.githubusercontent.com/Rip-E-Tech/lnreader-plugins-custom/master/public/static/src/cn/lewenn/icon.png"
 	},
 	{
@@ -131,7 +131,7 @@
 		"site": "https://www.linovel.net",
 		"lang": "中文, 汉语, 漢語",
 		"version": "1.0.1",
-		"url": "https://raw.githubusercontent.com/Rip-E-Tech/lnreader-plugins-custom/plugins/.js/plugins/chinese/linovel.js",
+		"url": "https://raw.githubusercontent.com/Rip-E-Tech/lnreader-plugins-custom/master/.js/src/plugins/chinese/linovel.js",
 		"iconUrl": "https://raw.githubusercontent.com/Rip-E-Tech/lnreader-plugins-custom/master/public/static/src/cn/linovel/icon.png"
 	},
 	{
@@ -140,7 +140,7 @@
 		"site": "https://www.bilinovel.com",
 		"lang": "中文, 汉语, 漢語",
 		"version": "1.2.1",
-		"url": "https://raw.githubusercontent.com/Rip-E-Tech/lnreader-plugins-custom/plugins/.js/plugins/chinese/linovelib.js",
+		"url": "https://raw.githubusercontent.com/Rip-E-Tech/lnreader-plugins-custom/master/.js/src/plugins/chinese/linovelib.js",
 		"iconUrl": "https://raw.githubusercontent.com/Rip-E-Tech/lnreader-plugins-custom/master/public/static/src/cn/linovelib/icon.png"
 	},
 	{
@@ -149,7 +149,7 @@
 		"site": "https://tw.linovelib.com/",
 		"lang": "中文, 汉语, 漢語",
 		"version": "1.0.1",
-		"url": "https://raw.githubusercontent.com/Rip-E-Tech/lnreader-plugins-custom/plugins/.js/plugins/chinese/linovelib_tw.js",
+		"url": "https://raw.githubusercontent.com/Rip-E-Tech/lnreader-plugins-custom/master/.js/src/plugins/chinese/linovelib_tw.js",
 		"iconUrl": "https://raw.githubusercontent.com/Rip-E-Tech/lnreader-plugins-custom/master/public/static/src/cn/linovelib/icon.png"
 	},
 	{
@@ -158,7 +158,7 @@
 		"site": "https://www.novel543.com/",
 		"lang": "中文, 汉语, 漢語",
 		"version": "1.0.0",
-		"url": "https://raw.githubusercontent.com/Rip-E-Tech/lnreader-plugins-custom/plugins/.js/plugins/chinese/novel543.js",
+		"url": "https://raw.githubusercontent.com/Rip-E-Tech/lnreader-plugins-custom/master/.js/src/plugins/chinese/novel543.js",
 		"iconUrl": "https://raw.githubusercontent.com/Rip-E-Tech/lnreader-plugins-custom/master/public/static/src/cn/novel543/icon.png"
 	},
 	{
@@ -167,7 +167,7 @@
 		"site": "https://www.quanben.io/",
 		"lang": "中文, 汉语, 漢語",
 		"version": "1.1.1",
-		"url": "https://raw.githubusercontent.com/Rip-E-Tech/lnreader-plugins-custom/plugins/.js/plugins/chinese/Quanben.js",
+		"url": "https://raw.githubusercontent.com/Rip-E-Tech/lnreader-plugins-custom/master/.js/src/plugins/chinese/Quanben.js",
 		"iconUrl": "https://raw.githubusercontent.com/Rip-E-Tech/lnreader-plugins-custom/master/public/static/src/cn/quanben/icon.png"
 	},
 	{
@@ -176,7 +176,7 @@
 		"site": "https://animeanyway.com/",
 		"lang": "English",
 		"version": "1.0.0",
-		"url": "https://raw.githubusercontent.com/Rip-E-Tech/lnreader-plugins-custom/plugins/.js/plugins/english/animeAnyway.js",
+		"url": "https://raw.githubusercontent.com/Rip-E-Tech/lnreader-plugins-custom/master/.js/src/plugins/english/animeAnyway.js",
 		"iconUrl": "https://raw.githubusercontent.com/Rip-E-Tech/lnreader-plugins-custom/master/public/static/src/en/animeanyway/icon.png"
 	},
 	{
@@ -185,7 +185,7 @@
 		"site": "https://archiveofourown.org/",
 		"lang": "English",
 		"version": "1.0.5",
-		"url": "https://raw.githubusercontent.com/Rip-E-Tech/lnreader-plugins-custom/plugins/.js/plugins/english/ao3.js",
+		"url": "https://raw.githubusercontent.com/Rip-E-Tech/lnreader-plugins-custom/master/.js/src/plugins/english/ao3.js",
 		"iconUrl": "https://raw.githubusercontent.com/Rip-E-Tech/lnreader-plugins-custom/master/public/static/src/en/ao3/icon.png"
 	},
 	{
@@ -194,7 +194,7 @@
 		"site": "https://www.asianfanfics.com/",
 		"lang": "English",
 		"version": "1.0.0",
-		"url": "https://raw.githubusercontent.com/Rip-E-Tech/lnreader-plugins-custom/plugins/.js/plugins/english/asianfanfics.js",
+		"url": "https://raw.githubusercontent.com/Rip-E-Tech/lnreader-plugins-custom/master/.js/src/plugins/english/asianfanfics.js",
 		"iconUrl": "https://raw.githubusercontent.com/Rip-E-Tech/lnreader-plugins-custom/master/public/static/src/en/asianfanfics/icon.png"
 	},
 	{
@@ -203,7 +203,7 @@
 		"site": "https://asurascans.com",
 		"lang": "English",
 		"version": "1.0.0",
-		"url": "https://raw.githubusercontent.com/Rip-E-Tech/lnreader-plugins-custom/plugins/.js/plugins/english/asurascans.js",
+		"url": "https://raw.githubusercontent.com/Rip-E-Tech/lnreader-plugins-custom/master/.js/src/plugins/english/asurascans.js",
 		"iconUrl": "https://raw.githubusercontent.com/Rip-E-Tech/lnreader-plugins-custom/master/public/static/src/en/asurascans/icon.png"
 	},
 	{
@@ -212,7 +212,7 @@
 		"site": "https://atsu.moe",
 		"lang": "English",
 		"version": "1.0.1",
-		"url": "https://raw.githubusercontent.com/Rip-E-Tech/lnreader-plugins-custom/plugins/.js/plugins/english/atsumaru.js",
+		"url": "https://raw.githubusercontent.com/Rip-E-Tech/lnreader-plugins-custom/master/.js/src/plugins/english/atsumaru.js",
 		"iconUrl": "https://raw.githubusercontent.com/Rip-E-Tech/lnreader-plugins-custom/master/public/static/src/en/atsumaru/icon.png"
 	},
 	{
@@ -221,7 +221,7 @@
 		"site": "https://www.baka-tsuki.org/project/",
 		"lang": "English",
 		"version": "1.1.0",
-		"url": "https://raw.githubusercontent.com/Rip-E-Tech/lnreader-plugins-custom/plugins/.js/plugins/english/bakaTsuki.js",
+		"url": "https://raw.githubusercontent.com/Rip-E-Tech/lnreader-plugins-custom/master/.js/src/plugins/english/bakaTsuki.js",
 		"iconUrl": "https://raw.githubusercontent.com/Rip-E-Tech/lnreader-plugins-custom/master/public/static/src/en/bakatsuki/icon.png"
 	},
 	{
@@ -230,7 +230,7 @@
 		"site": "https://beastnovels.com/",
 		"lang": "English",
 		"version": "1.1.0",
-		"url": "https://raw.githubusercontent.com/Rip-E-Tech/lnreader-plugins-custom/plugins/.js/plugins/english/beastnovels.js",
+		"url": "https://raw.githubusercontent.com/Rip-E-Tech/lnreader-plugins-custom/master/.js/src/plugins/english/beastnovels.js",
 		"iconUrl": "https://raw.githubusercontent.com/Rip-E-Tech/lnreader-plugins-custom/master/public/static/src/en/beastnovels/icon.png"
 	},
 	{
@@ -239,7 +239,7 @@
 		"site": "https://reader.boondollars.com",
 		"lang": "English",
 		"version": "1.0.0",
-		"url": "https://raw.githubusercontent.com/Rip-E-Tech/lnreader-plugins-custom/plugins/.js/plugins/english/boonnovel.js",
+		"url": "https://raw.githubusercontent.com/Rip-E-Tech/lnreader-plugins-custom/master/.js/src/plugins/english/boonnovel.js",
 		"iconUrl": "https://raw.githubusercontent.com/Rip-E-Tech/lnreader-plugins-custom/master/public/static/src/en/boonnovel/icon.png"
 	},
 	{
@@ -248,7 +248,7 @@
 		"site": "https://borntobenovel.com",
 		"lang": "English",
 		"version": "1.0.0",
-		"url": "https://raw.githubusercontent.com/Rip-E-Tech/lnreader-plugins-custom/plugins/.js/plugins/english/borntobenovel.js",
+		"url": "https://raw.githubusercontent.com/Rip-E-Tech/lnreader-plugins-custom/master/.js/src/plugins/english/borntobenovel.js",
 		"iconUrl": "https://raw.githubusercontent.com/Rip-E-Tech/lnreader-plugins-custom/master/public/static/src/en/borntobenovel/icon.png"
 	},
 	{
@@ -257,7 +257,7 @@
 		"site": "https://bronstl.com",
 		"lang": "English",
 		"version": "1.0.0",
-		"url": "https://raw.githubusercontent.com/Rip-E-Tech/lnreader-plugins-custom/plugins/.js/plugins/english/bronstl.js",
+		"url": "https://raw.githubusercontent.com/Rip-E-Tech/lnreader-plugins-custom/master/.js/src/plugins/english/bronstl.js",
 		"iconUrl": "https://raw.githubusercontent.com/Rip-E-Tech/lnreader-plugins-custom/master/public/static/src/en/bronstl/icon.png"
 	},
 	{
@@ -266,7 +266,7 @@
 		"site": "https://chikari.moe",
 		"lang": "English",
 		"version": "1.0.2",
-		"url": "https://raw.githubusercontent.com/Rip-E-Tech/lnreader-plugins-custom/plugins/.js/plugins/english/chikari.js",
+		"url": "https://raw.githubusercontent.com/Rip-E-Tech/lnreader-plugins-custom/master/.js/src/plugins/english/chikari.js",
 		"iconUrl": "https://raw.githubusercontent.com/Rip-E-Tech/lnreader-plugins-custom/master/public/static/src/en/chikari/icon.png"
 	},
 	{
@@ -275,7 +275,7 @@
 		"site": "https://chrysanthemumgarden.com",
 		"lang": "English",
 		"version": "1.0.3",
-		"url": "https://raw.githubusercontent.com/Rip-E-Tech/lnreader-plugins-custom/plugins/.js/plugins/english/chrysanthemumgarden.js",
+		"url": "https://raw.githubusercontent.com/Rip-E-Tech/lnreader-plugins-custom/master/.js/src/plugins/english/chrysanthemumgarden.js",
 		"iconUrl": "https://raw.githubusercontent.com/Rip-E-Tech/lnreader-plugins-custom/master/public/static/src/en/chrysanthemumgarden/icon.png"
 	},
 	{
@@ -284,7 +284,7 @@
 		"site": "https://cote-reader.me",
 		"lang": "English",
 		"version": "1.0.7",
-		"url": "https://raw.githubusercontent.com/Rip-E-Tech/lnreader-plugins-custom/plugins/.js/plugins/english/cotereader.js",
+		"url": "https://raw.githubusercontent.com/Rip-E-Tech/lnreader-plugins-custom/master/.js/src/plugins/english/cotereader.js",
 		"iconUrl": "https://raw.githubusercontent.com/Rip-E-Tech/lnreader-plugins-custom/master/public/static/src/en/cotereader/icon.png"
 	},
 	{
@@ -293,7 +293,7 @@
 		"site": "https://crimsonscrolls.net",
 		"lang": "English",
 		"version": "1.1.0",
-		"url": "https://raw.githubusercontent.com/Rip-E-Tech/lnreader-plugins-custom/plugins/.js/plugins/english/crimsonscrolls.js",
+		"url": "https://raw.githubusercontent.com/Rip-E-Tech/lnreader-plugins-custom/master/.js/src/plugins/english/crimsonscrolls.js",
 		"iconUrl": "https://raw.githubusercontent.com/Rip-E-Tech/lnreader-plugins-custom/master/public/static/src/en/crimsonscrolls/icon.png"
 	},
 	{
@@ -302,7 +302,7 @@
 		"site": "https://daotekno.com/",
 		"lang": "English",
 		"version": "1.0.3",
-		"url": "https://raw.githubusercontent.com/Rip-E-Tech/lnreader-plugins-custom/plugins/.js/plugins/english/daotekno.js",
+		"url": "https://raw.githubusercontent.com/Rip-E-Tech/lnreader-plugins-custom/master/.js/src/plugins/english/daotekno.js",
 		"iconUrl": "https://raw.githubusercontent.com/Rip-E-Tech/lnreader-plugins-custom/master/public/static/src/en/daotekno/icon.png"
 	},
 	{
@@ -311,7 +311,7 @@
 		"site": "https://www.divinedaolibrary.com/",
 		"lang": "English",
 		"version": "1.1.1",
-		"url": "https://raw.githubusercontent.com/Rip-E-Tech/lnreader-plugins-custom/plugins/.js/plugins/english/divinedaolibrary.js",
+		"url": "https://raw.githubusercontent.com/Rip-E-Tech/lnreader-plugins-custom/master/.js/src/plugins/english/divinedaolibrary.js",
 		"iconUrl": "https://raw.githubusercontent.com/Rip-E-Tech/lnreader-plugins-custom/master/public/static/src/en/divinedaolibrary/icon.png"
 	},
 	{
@@ -320,7 +320,7 @@
 		"site": "https://dragonholictranslations.com",
 		"lang": "English",
 		"version": "3.0.0",
-		"url": "https://raw.githubusercontent.com/Rip-E-Tech/lnreader-plugins-custom/plugins/.js/plugins/english/dragonholic.js",
+		"url": "https://raw.githubusercontent.com/Rip-E-Tech/lnreader-plugins-custom/master/.js/src/plugins/english/dragonholic.js",
 		"iconUrl": "https://raw.githubusercontent.com/Rip-E-Tech/lnreader-plugins-custom/master/public/static/src/en/dragonholic/icon.png"
 	},
 	{
@@ -329,7 +329,7 @@
 		"site": "https://www.dreambigtl.com/",
 		"lang": "English",
 		"version": "1.0.0",
-		"url": "https://raw.githubusercontent.com/Rip-E-Tech/lnreader-plugins-custom/plugins/.js/plugins/english/dreambigtl.js",
+		"url": "https://raw.githubusercontent.com/Rip-E-Tech/lnreader-plugins-custom/master/.js/src/plugins/english/dreambigtl.js",
 		"iconUrl": "https://raw.githubusercontent.com/Rip-E-Tech/lnreader-plugins-custom/master/public/static/src/en/dreambigtl/icon.png"
 	},
 	{
@@ -338,7 +338,7 @@
 		"site": "https://dreamy-translations.com",
 		"lang": "English",
 		"version": "1.1.1",
-		"url": "https://raw.githubusercontent.com/Rip-E-Tech/lnreader-plugins-custom/plugins/.js/plugins/english/dreamyTranslations.js",
+		"url": "https://raw.githubusercontent.com/Rip-E-Tech/lnreader-plugins-custom/master/.js/src/plugins/english/dreamyTranslations.js",
 		"iconUrl": "https://raw.githubusercontent.com/Rip-E-Tech/lnreader-plugins-custom/master/public/static/src/en/dreamyTranslations/icon.png"
 	},
 	{
@@ -347,7 +347,7 @@
 		"site": "https://www.empirenovel.com/",
 		"lang": "English",
 		"version": "1.0.0",
-		"url": "https://raw.githubusercontent.com/Rip-E-Tech/lnreader-plugins-custom/plugins/.js/plugins/english/empirenovel.js",
+		"url": "https://raw.githubusercontent.com/Rip-E-Tech/lnreader-plugins-custom/master/.js/src/plugins/english/empirenovel.js",
 		"iconUrl": "https://raw.githubusercontent.com/Rip-E-Tech/lnreader-plugins-custom/master/public/static/src/en/empirenovel/icon.png"
 	},
 	{
@@ -356,7 +356,7 @@
 		"site": "https://fenrirealm.com",
 		"lang": "English",
 		"version": "1.1.5",
-		"url": "https://raw.githubusercontent.com/Rip-E-Tech/lnreader-plugins-custom/plugins/.js/plugins/english/fenrirrealm.js",
+		"url": "https://raw.githubusercontent.com/Rip-E-Tech/lnreader-plugins-custom/master/.js/src/plugins/english/fenrirrealm.js",
 		"iconUrl": "https://raw.githubusercontent.com/Rip-E-Tech/lnreader-plugins-custom/master/public/static/src/en/fenrirrealm/icon.png"
 	},
 	{
@@ -365,7 +365,7 @@
 		"site": "https://fictionzone.net",
 		"lang": "English",
 		"version": "1.1.0",
-		"url": "https://raw.githubusercontent.com/Rip-E-Tech/lnreader-plugins-custom/plugins/.js/plugins/english/fictionzone.js",
+		"url": "https://raw.githubusercontent.com/Rip-E-Tech/lnreader-plugins-custom/master/.js/src/plugins/english/fictionzone.js",
 		"iconUrl": "https://raw.githubusercontent.com/Rip-E-Tech/lnreader-plugins-custom/master/public/static/src/en/fictionzone/icon.png"
 	},
 	{
@@ -374,7 +374,7 @@
 		"site": "https://firebirdsnest.org",
 		"lang": "English",
 		"version": "1.0.0",
-		"url": "https://raw.githubusercontent.com/Rip-E-Tech/lnreader-plugins-custom/plugins/.js/plugins/english/firebirdsnest.js",
+		"url": "https://raw.githubusercontent.com/Rip-E-Tech/lnreader-plugins-custom/master/.js/src/plugins/english/firebirdsnest.js",
 		"iconUrl": "https://raw.githubusercontent.com/Rip-E-Tech/lnreader-plugins-custom/master/public/static/src/en/firebirdsnest/icon.png"
 	},
 	{
@@ -383,7 +383,7 @@
 		"site": "https://www.foxteller.com",
 		"lang": "English",
 		"version": "1.0.3",
-		"url": "https://raw.githubusercontent.com/Rip-E-Tech/lnreader-plugins-custom/plugins/.js/plugins/english/foxteller.js",
+		"url": "https://raw.githubusercontent.com/Rip-E-Tech/lnreader-plugins-custom/master/.js/src/plugins/english/foxteller.js",
 		"iconUrl": "https://raw.githubusercontent.com/Rip-E-Tech/lnreader-plugins-custom/master/public/static/src/en/foxteller/icon.png"
 	},
 	{
@@ -392,7 +392,7 @@
 		"site": "https://fucknovelpia.com/",
 		"lang": "English",
 		"version": "1.1.4",
-		"url": "https://raw.githubusercontent.com/Rip-E-Tech/lnreader-plugins-custom/plugins/.js/plugins/english/fucknovelpia.js",
+		"url": "https://raw.githubusercontent.com/Rip-E-Tech/lnreader-plugins-custom/master/.js/src/plugins/english/fucknovelpia.js",
 		"iconUrl": "https://raw.githubusercontent.com/Rip-E-Tech/lnreader-plugins-custom/master/public/static/src/en/fucknovelpia/icon.png"
 	},
 	{
@@ -401,7 +401,7 @@
 		"site": "https://faqwiki.xyz",
 		"lang": "English",
 		"version": "4.0.0",
-		"url": "https://raw.githubusercontent.com/Rip-E-Tech/lnreader-plugins-custom/plugins/.js/plugins/english/faqwikius.js",
+		"url": "https://raw.githubusercontent.com/Rip-E-Tech/lnreader-plugins-custom/master/.js/src/plugins/english/faqwikius.js",
 		"iconUrl": "https://raw.githubusercontent.com/Rip-E-Tech/lnreader-plugins-custom/master/public/static/src/en/faqwikius/icon.png"
 	},
 	{
@@ -410,7 +410,7 @@
 		"site": "https://genesistudio.com",
 		"lang": "English",
 		"version": "2.0.3",
-		"url": "https://raw.githubusercontent.com/Rip-E-Tech/lnreader-plugins-custom/plugins/.js/plugins/english/genesis.js",
+		"url": "https://raw.githubusercontent.com/Rip-E-Tech/lnreader-plugins-custom/master/.js/src/plugins/english/genesis.js",
 		"iconUrl": "https://raw.githubusercontent.com/Rip-E-Tech/lnreader-plugins-custom/master/public/static/src/en/genesis/icon.png",
 		"customCSS": "https://raw.githubusercontent.com/Rip-E-Tech/lnreader-plugins-custom/master/public/static/src/en/genesis/customCSS.css"
 	},
@@ -420,7 +420,7 @@
 		"site": "https://hangulplanet.com",
 		"lang": "English",
 		"version": "2.3.0",
-		"url": "https://raw.githubusercontent.com/Rip-E-Tech/lnreader-plugins-custom/plugins/.js/plugins/english/HangulPlanet.js",
+		"url": "https://raw.githubusercontent.com/Rip-E-Tech/lnreader-plugins-custom/master/.js/src/plugins/english/HangulPlanet.js",
 		"iconUrl": "https://raw.githubusercontent.com/Rip-E-Tech/lnreader-plugins-custom/master/public/static/src/en/hangulplanet/icon.png"
 	},
 	{
@@ -429,7 +429,7 @@
 		"site": "https://hennoveltranslations.org",
 		"lang": "English",
 		"version": "1.0.1",
-		"url": "https://raw.githubusercontent.com/Rip-E-Tech/lnreader-plugins-custom/plugins/.js/plugins/english/hennoveltranslations.js",
+		"url": "https://raw.githubusercontent.com/Rip-E-Tech/lnreader-plugins-custom/master/.js/src/plugins/english/hennoveltranslations.js",
 		"iconUrl": "https://raw.githubusercontent.com/Rip-E-Tech/lnreader-plugins-custom/master/public/static/src/en/hennoveltranslations/icon.png"
 	},
 	{
@@ -438,7 +438,7 @@
 		"site": "https://indratranslations.com",
 		"lang": "English",
 		"version": "1.3.0",
-		"url": "https://raw.githubusercontent.com/Rip-E-Tech/lnreader-plugins-custom/plugins/.js/plugins/english/indraTranslations.js",
+		"url": "https://raw.githubusercontent.com/Rip-E-Tech/lnreader-plugins-custom/master/.js/src/plugins/english/indraTranslations.js",
 		"iconUrl": "https://raw.githubusercontent.com/Rip-E-Tech/lnreader-plugins-custom/master/public/static/src/en/indratranslations/icon.png"
 	},
 	{
@@ -447,7 +447,7 @@
 		"site": "https://www.inkitt.com",
 		"lang": "English",
 		"version": "1.0.1",
-		"url": "https://raw.githubusercontent.com/Rip-E-Tech/lnreader-plugins-custom/plugins/.js/plugins/english/inkitt.js",
+		"url": "https://raw.githubusercontent.com/Rip-E-Tech/lnreader-plugins-custom/master/.js/src/plugins/english/inkitt.js",
 		"iconUrl": "https://raw.githubusercontent.com/Rip-E-Tech/lnreader-plugins-custom/master/public/static/src/en/inkitt/icon.png"
 	},
 	{
@@ -456,7 +456,7 @@
 		"site": "https://inoveltranslation.com",
 		"lang": "English",
 		"version": "1.0.2",
-		"url": "https://raw.githubusercontent.com/Rip-E-Tech/lnreader-plugins-custom/plugins/.js/plugins/english/inoveltranslation.js",
+		"url": "https://raw.githubusercontent.com/Rip-E-Tech/lnreader-plugins-custom/master/.js/src/plugins/english/inoveltranslation.js",
 		"iconUrl": "https://raw.githubusercontent.com/Rip-E-Tech/lnreader-plugins-custom/master/public/static/src/en/inoveltranslation/icon.png"
 	},
 	{
@@ -465,7 +465,7 @@
 		"site": "https://kdtnovels.net/",
 		"lang": "English",
 		"version": "2.0.0",
-		"url": "https://raw.githubusercontent.com/Rip-E-Tech/lnreader-plugins-custom/plugins/.js/plugins/english/kdtnovels.js",
+		"url": "https://raw.githubusercontent.com/Rip-E-Tech/lnreader-plugins-custom/master/.js/src/plugins/english/kdtnovels.js",
 		"iconUrl": "https://raw.githubusercontent.com/Rip-E-Tech/lnreader-plugins-custom/master/public/static/src/en/kdtnovels/icon.png"
 	},
 	{
@@ -474,7 +474,7 @@
 		"site": "https://konkon.ink",
 		"lang": "English",
 		"version": "1.0.0",
-		"url": "https://raw.githubusercontent.com/Rip-E-Tech/lnreader-plugins-custom/plugins/.js/plugins/english/konkon.js",
+		"url": "https://raw.githubusercontent.com/Rip-E-Tech/lnreader-plugins-custom/master/.js/src/plugins/english/konkon.js",
 		"iconUrl": "https://raw.githubusercontent.com/Rip-E-Tech/lnreader-plugins-custom/master/public/static/src/en/konkon/icon.png"
 	},
 	{
@@ -483,7 +483,7 @@
 		"site": "https://leafstudio.site/",
 		"lang": "English",
 		"version": "1.0.0",
-		"url": "https://raw.githubusercontent.com/Rip-E-Tech/lnreader-plugins-custom/plugins/.js/plugins/english/leafstudio.js",
+		"url": "https://raw.githubusercontent.com/Rip-E-Tech/lnreader-plugins-custom/master/.js/src/plugins/english/leafstudio.js",
 		"iconUrl": "https://raw.githubusercontent.com/Rip-E-Tech/lnreader-plugins-custom/master/public/static/src/en/leafstudio/icon.png"
 	},
 	{
@@ -492,7 +492,7 @@
 		"site": "https://lightnovel.to",
 		"lang": "English",
 		"version": "1.0.0",
-		"url": "https://raw.githubusercontent.com/Rip-E-Tech/lnreader-plugins-custom/plugins/.js/plugins/english/lightnovelto.js",
+		"url": "https://raw.githubusercontent.com/Rip-E-Tech/lnreader-plugins-custom/master/.js/src/plugins/english/lightnovelto.js",
 		"iconUrl": "https://raw.githubusercontent.com/Rip-E-Tech/lnreader-plugins-custom/master/public/static/src/en/lightnovelto/icon.png"
 	},
 	{
@@ -501,7 +501,7 @@
 		"site": "https://lightnovelstranslations.com/",
 		"lang": "English",
 		"version": "1.0.2",
-		"url": "https://raw.githubusercontent.com/Rip-E-Tech/lnreader-plugins-custom/plugins/.js/plugins/english/lightnoveltranslation.js",
+		"url": "https://raw.githubusercontent.com/Rip-E-Tech/lnreader-plugins-custom/master/.js/src/plugins/english/lightnoveltranslation.js",
 		"iconUrl": "https://raw.githubusercontent.com/Rip-E-Tech/lnreader-plugins-custom/master/public/static/src/en/lightnoveltranslations/icon.png"
 	},
 	{
@@ -510,7 +510,7 @@
 		"site": "https://lightnovelworld.org/",
 		"lang": "English",
 		"version": "1.0.2",
-		"url": "https://raw.githubusercontent.com/Rip-E-Tech/lnreader-plugins-custom/plugins/.js/plugins/english/lightnovelworld.js",
+		"url": "https://raw.githubusercontent.com/Rip-E-Tech/lnreader-plugins-custom/master/.js/src/plugins/english/lightnovelworld.js",
 		"iconUrl": "https://raw.githubusercontent.com/Rip-E-Tech/lnreader-plugins-custom/master/public/static/src/en/lightnovelworld/icon.png"
 	},
 	{
@@ -519,7 +519,7 @@
 		"site": "https://lncrawler.monster",
 		"lang": "English",
 		"version": "1.1.1",
-		"url": "https://raw.githubusercontent.com/Rip-E-Tech/lnreader-plugins-custom/plugins/.js/plugins/english/lncrawler.js",
+		"url": "https://raw.githubusercontent.com/Rip-E-Tech/lnreader-plugins-custom/master/.js/src/plugins/english/lncrawler.js",
 		"iconUrl": "https://raw.githubusercontent.com/Rip-E-Tech/lnreader-plugins-custom/master/public/static/src/en/lncrawler/icon.png"
 	},
 	{
@@ -528,7 +528,7 @@
 		"site": "https://lnmtl.com/",
 		"lang": "English",
 		"version": "2.1.1",
-		"url": "https://raw.githubusercontent.com/Rip-E-Tech/lnreader-plugins-custom/plugins/.js/plugins/english/lnmtl.js",
+		"url": "https://raw.githubusercontent.com/Rip-E-Tech/lnreader-plugins-custom/master/.js/src/plugins/english/lnmtl.js",
 		"iconUrl": "https://raw.githubusercontent.com/Rip-E-Tech/lnreader-plugins-custom/master/public/static/src/en/lnmtl/icon.png"
 	},
 	{
@@ -537,7 +537,7 @@
 		"site": "https://lnori.com/",
 		"lang": "English",
 		"version": "1.0.1",
-		"url": "https://raw.githubusercontent.com/Rip-E-Tech/lnreader-plugins-custom/plugins/.js/plugins/english/lnori.js",
+		"url": "https://raw.githubusercontent.com/Rip-E-Tech/lnreader-plugins-custom/master/.js/src/plugins/english/lnori.js",
 		"iconUrl": "https://raw.githubusercontent.com/Rip-E-Tech/lnreader-plugins-custom/master/public/static/src/en/lnori/icon.png"
 	},
 	{
@@ -546,7 +546,7 @@
 		"site": "https://luminaretranslations.com",
 		"lang": "English",
 		"version": "1.0.0",
-		"url": "https://raw.githubusercontent.com/Rip-E-Tech/lnreader-plugins-custom/plugins/.js/plugins/english/luminaretranslations.js",
+		"url": "https://raw.githubusercontent.com/Rip-E-Tech/lnreader-plugins-custom/master/.js/src/plugins/english/luminaretranslations.js",
 		"iconUrl": "https://raw.githubusercontent.com/Rip-E-Tech/lnreader-plugins-custom/master/public/static/src/en/luminaretranslations/icon.png"
 	},
 	{
@@ -555,7 +555,7 @@
 		"site": "https://maehwasup.com",
 		"lang": "English",
 		"version": "1.0.1",
-		"url": "https://raw.githubusercontent.com/Rip-E-Tech/lnreader-plugins-custom/plugins/.js/plugins/english/maehwasup.js",
+		"url": "https://raw.githubusercontent.com/Rip-E-Tech/lnreader-plugins-custom/master/.js/src/plugins/english/maehwasup.js",
 		"iconUrl": "https://raw.githubusercontent.com/Rip-E-Tech/lnreader-plugins-custom/master/public/static/src/en/maehwasup/icon.png"
 	},
 	{
@@ -564,7 +564,7 @@
 		"site": "https://mizupanshoko.wordpress.com",
 		"lang": "English",
 		"version": "1.0.0",
-		"url": "https://raw.githubusercontent.com/Rip-E-Tech/lnreader-plugins-custom/plugins/.js/plugins/english/mizupanshoko.js",
+		"url": "https://raw.githubusercontent.com/Rip-E-Tech/lnreader-plugins-custom/master/.js/src/plugins/english/mizupanshoko.js",
 		"iconUrl": "https://raw.githubusercontent.com/Rip-E-Tech/lnreader-plugins-custom/master/public/static/src/en/mizupanshoko/icon.png"
 	},
 	{
@@ -573,7 +573,7 @@
 		"site": "https://www.mvlempyr.io/",
 		"lang": "English",
 		"version": "1.0.15",
-		"url": "https://raw.githubusercontent.com/Rip-E-Tech/lnreader-plugins-custom/plugins/.js/plugins/english/mvlempyr.js",
+		"url": "https://raw.githubusercontent.com/Rip-E-Tech/lnreader-plugins-custom/master/.js/src/plugins/english/mvlempyr.js",
 		"iconUrl": "https://raw.githubusercontent.com/Rip-E-Tech/lnreader-plugins-custom/master/public/static/src/en/mvlempyr/icon.png"
 	},
 	{
@@ -582,7 +582,7 @@
 		"site": "https://mylasted.blogspot.com",
 		"lang": "English",
 		"version": "1.0.1",
-		"url": "https://raw.githubusercontent.com/Rip-E-Tech/lnreader-plugins-custom/plugins/.js/plugins/english/mylasted.js",
+		"url": "https://raw.githubusercontent.com/Rip-E-Tech/lnreader-plugins-custom/master/.js/src/plugins/english/mylasted.js",
 		"iconUrl": "https://raw.githubusercontent.com/Rip-E-Tech/lnreader-plugins-custom/master/public/static/src/en/mylasted/icon.png"
 	},
 	{
@@ -591,7 +591,7 @@
 		"site": "https://mynovels.su/",
 		"lang": "English",
 		"version": "1.0.0",
-		"url": "https://raw.githubusercontent.com/Rip-E-Tech/lnreader-plugins-custom/plugins/.js/plugins/english/mynovels.js",
+		"url": "https://raw.githubusercontent.com/Rip-E-Tech/lnreader-plugins-custom/master/.js/src/plugins/english/mynovels.js",
 		"iconUrl": "https://raw.githubusercontent.com/Rip-E-Tech/lnreader-plugins-custom/master/public/static/src/en/mynovels/icon.png"
 	},
 	{
@@ -600,7 +600,7 @@
 		"site": "https://nightjarreads.com",
 		"lang": "English",
 		"version": "1.0.0",
-		"url": "https://raw.githubusercontent.com/Rip-E-Tech/lnreader-plugins-custom/plugins/.js/plugins/english/nightjarreads.js",
+		"url": "https://raw.githubusercontent.com/Rip-E-Tech/lnreader-plugins-custom/master/.js/src/plugins/english/nightjarreads.js",
 		"iconUrl": "https://raw.githubusercontent.com/Rip-E-Tech/lnreader-plugins-custom/master/public/static/src/en/nightjarreads/icon.png"
 	},
 	{
@@ -609,7 +609,7 @@
 		"site": "https://novelsonline.org",
 		"lang": "English",
 		"version": "1.0.2",
-		"url": "https://raw.githubusercontent.com/Rip-E-Tech/lnreader-plugins-custom/plugins/.js/plugins/english/NovelOnline.js",
+		"url": "https://raw.githubusercontent.com/Rip-E-Tech/lnreader-plugins-custom/master/.js/src/plugins/english/NovelOnline.js",
 		"iconUrl": "https://raw.githubusercontent.com/Rip-E-Tech/lnreader-plugins-custom/master/public/static/src/en/novelsonline/icon.png"
 	},
 	{
@@ -618,7 +618,7 @@
 		"site": "https://novel7s.com",
 		"lang": "English",
 		"version": "1.0.1",
-		"url": "https://raw.githubusercontent.com/Rip-E-Tech/lnreader-plugins-custom/plugins/.js/plugins/english/novel7s.js",
+		"url": "https://raw.githubusercontent.com/Rip-E-Tech/lnreader-plugins-custom/master/.js/src/plugins/english/novel7s.js",
 		"iconUrl": "https://raw.githubusercontent.com/Rip-E-Tech/lnreader-plugins-custom/master/public/static/src/en/novel7s/icon.png"
 	},
 	{
@@ -627,7 +627,7 @@
 		"site": "https://novelarchive.cc",
 		"lang": "English",
 		"version": "1.0.0",
-		"url": "https://raw.githubusercontent.com/Rip-E-Tech/lnreader-plugins-custom/plugins/.js/plugins/english/novelarchive.js",
+		"url": "https://raw.githubusercontent.com/Rip-E-Tech/lnreader-plugins-custom/master/.js/src/plugins/english/novelarchive.js",
 		"iconUrl": "https://raw.githubusercontent.com/Rip-E-Tech/lnreader-plugins-custom/master/public/static/src/en/novelarchive/icon.png"
 	},
 	{
@@ -636,7 +636,7 @@
 		"site": "https://novelarrow.com/",
 		"lang": "English",
 		"version": "1.0.1",
-		"url": "https://raw.githubusercontent.com/Rip-E-Tech/lnreader-plugins-custom/plugins/.js/plugins/english/novelarrow.js",
+		"url": "https://raw.githubusercontent.com/Rip-E-Tech/lnreader-plugins-custom/master/.js/src/plugins/english/novelarrow.js",
 		"iconUrl": "https://raw.githubusercontent.com/Rip-E-Tech/lnreader-plugins-custom/master/public/static/src/en/novelarrow/icon.png"
 	},
 	{
@@ -645,7 +645,7 @@
 		"site": "https://novelbin.xyz/",
 		"lang": "English",
 		"version": "3.0.0",
-		"url": "https://raw.githubusercontent.com/Rip-E-Tech/lnreader-plugins-custom/plugins/.js/plugins/english/novelbin.js",
+		"url": "https://raw.githubusercontent.com/Rip-E-Tech/lnreader-plugins-custom/master/.js/src/plugins/english/novelbin.js",
 		"iconUrl": "https://raw.githubusercontent.com/Rip-E-Tech/lnreader-plugins-custom/master/public/static/src/en/novelbin/icon.png"
 	},
 	{
@@ -654,7 +654,7 @@
 		"site": "https://novelbuddy.me/",
 		"lang": "English",
 		"version": "2.1.4",
-		"url": "https://raw.githubusercontent.com/Rip-E-Tech/lnreader-plugins-custom/plugins/.js/plugins/english/novelbuddy.js",
+		"url": "https://raw.githubusercontent.com/Rip-E-Tech/lnreader-plugins-custom/master/.js/src/plugins/english/novelbuddy.js",
 		"iconUrl": "https://raw.githubusercontent.com/Rip-E-Tech/lnreader-plugins-custom/master/public/static/src/en/novelbuddy/icon.png"
 	},
 	{
@@ -663,7 +663,7 @@
 		"site": "https://noveldex.io",
 		"lang": "English",
 		"version": "1.0.0",
-		"url": "https://raw.githubusercontent.com/Rip-E-Tech/lnreader-plugins-custom/plugins/.js/plugins/english/noveldex.js",
+		"url": "https://raw.githubusercontent.com/Rip-E-Tech/lnreader-plugins-custom/master/.js/src/plugins/english/noveldex.js",
 		"iconUrl": "https://raw.githubusercontent.com/Rip-E-Tech/lnreader-plugins-custom/master/public/static/src/en/noveldex/icon.png"
 	},
 	{
@@ -672,7 +672,7 @@
 		"site": "https://novelhall.com/",
 		"lang": "English",
 		"version": "1.0.3",
-		"url": "https://raw.githubusercontent.com/Rip-E-Tech/lnreader-plugins-custom/plugins/.js/plugins/english/novelhall.js",
+		"url": "https://raw.githubusercontent.com/Rip-E-Tech/lnreader-plugins-custom/master/.js/src/plugins/english/novelhall.js",
 		"iconUrl": "https://raw.githubusercontent.com/Rip-E-Tech/lnreader-plugins-custom/master/public/static/src/en/novelhall/icon.png"
 	},
 	{
@@ -681,7 +681,7 @@
 		"site": "https://novelhi.com/",
 		"lang": "English",
 		"version": "1.1.2",
-		"url": "https://raw.githubusercontent.com/Rip-E-Tech/lnreader-plugins-custom/plugins/.js/plugins/english/novelhi.js",
+		"url": "https://raw.githubusercontent.com/Rip-E-Tech/lnreader-plugins-custom/master/.js/src/plugins/english/novelhi.js",
 		"iconUrl": "https://raw.githubusercontent.com/Rip-E-Tech/lnreader-plugins-custom/master/public/static/src/en/novelhi/icon.png"
 	},
 	{
@@ -690,7 +690,7 @@
 		"site": "https://novelight.net/",
 		"lang": "English",
 		"version": "1.1.5",
-		"url": "https://raw.githubusercontent.com/Rip-E-Tech/lnreader-plugins-custom/plugins/.js/plugins/english/novelight.js",
+		"url": "https://raw.githubusercontent.com/Rip-E-Tech/lnreader-plugins-custom/master/.js/src/plugins/english/novelight.js",
 		"iconUrl": "https://raw.githubusercontent.com/Rip-E-Tech/lnreader-plugins-custom/master/public/static/src/en/novelight/icon.png"
 	},
 	{
@@ -699,7 +699,7 @@
 		"site": "https://noveli.to",
 		"lang": "English",
 		"version": "1.0.0",
-		"url": "https://raw.githubusercontent.com/Rip-E-Tech/lnreader-plugins-custom/plugins/.js/plugins/english/novelito.js",
+		"url": "https://raw.githubusercontent.com/Rip-E-Tech/lnreader-plugins-custom/master/.js/src/plugins/english/novelito.js",
 		"iconUrl": "https://raw.githubusercontent.com/Rip-E-Tech/lnreader-plugins-custom/master/public/static/src/en/novelito/icon.png"
 	},
 	{
@@ -708,7 +708,7 @@
 		"site": "https://novelrest.vercel.app",
 		"lang": "English",
 		"version": "1.0.0",
-		"url": "https://raw.githubusercontent.com/Rip-E-Tech/lnreader-plugins-custom/plugins/.js/plugins/english/novelrest.js",
+		"url": "https://raw.githubusercontent.com/Rip-E-Tech/lnreader-plugins-custom/master/.js/src/plugins/english/novelrest.js",
 		"iconUrl": "https://raw.githubusercontent.com/Rip-E-Tech/lnreader-plugins-custom/master/public/static/src/en/novelrest/icon.png"
 	},
 	{
@@ -717,7 +717,7 @@
 		"site": "https://www.novelupdates.com/",
 		"lang": "English",
 		"version": "0.9.9",
-		"url": "https://raw.githubusercontent.com/Rip-E-Tech/lnreader-plugins-custom/plugins/.js/plugins/english/novelupdates.js",
+		"url": "https://raw.githubusercontent.com/Rip-E-Tech/lnreader-plugins-custom/master/.js/src/plugins/english/novelupdates.js",
 		"iconUrl": "https://raw.githubusercontent.com/Rip-E-Tech/lnreader-plugins-custom/master/public/static/src/en/novelupdates/icon.png",
 		"customCSS": "https://raw.githubusercontent.com/Rip-E-Tech/lnreader-plugins-custom/master/public/static/src/en/novelupdates/customCSS.css"
 	},
@@ -727,7 +727,7 @@
 		"site": "https://onlinereadfreenovel.com",
 		"lang": "English",
 		"version": "1.0.0",
-		"url": "https://raw.githubusercontent.com/Rip-E-Tech/lnreader-plugins-custom/plugins/.js/plugins/english/onlinereadfreenovel.js",
+		"url": "https://raw.githubusercontent.com/Rip-E-Tech/lnreader-plugins-custom/master/.js/src/plugins/english/onlinereadfreenovel.js",
 		"iconUrl": "https://raw.githubusercontent.com/Rip-E-Tech/lnreader-plugins-custom/master/public/static/src/en/onlinereadfreenovel/icon.png"
 	},
 	{
@@ -736,7 +736,7 @@
 		"site": "https://m.pawread.com/",
 		"lang": "English",
 		"version": "2.1.1",
-		"url": "https://raw.githubusercontent.com/Rip-E-Tech/lnreader-plugins-custom/plugins/.js/plugins/english/pawread.js",
+		"url": "https://raw.githubusercontent.com/Rip-E-Tech/lnreader-plugins-custom/master/.js/src/plugins/english/pawread.js",
 		"iconUrl": "https://raw.githubusercontent.com/Rip-E-Tech/lnreader-plugins-custom/master/public/static/src/en/pawread/icon.png"
 	},
 	{
@@ -745,7 +745,7 @@
 		"site": "https://peachpuff.in/",
 		"lang": "English",
 		"version": "1.0.0",
-		"url": "https://raw.githubusercontent.com/Rip-E-Tech/lnreader-plugins-custom/plugins/.js/plugins/english/peachpuff.js",
+		"url": "https://raw.githubusercontent.com/Rip-E-Tech/lnreader-plugins-custom/master/.js/src/plugins/english/peachpuff.js",
 		"iconUrl": "https://raw.githubusercontent.com/Rip-E-Tech/lnreader-plugins-custom/master/public/static/src/english/peachpuff/icon.png"
 	},
 	{
@@ -754,7 +754,7 @@
 		"site": "https://www.puffinfolio.com/",
 		"lang": "English",
 		"version": "1.0.0",
-		"url": "https://raw.githubusercontent.com/Rip-E-Tech/lnreader-plugins-custom/plugins/.js/plugins/english/puffinFolio.js",
+		"url": "https://raw.githubusercontent.com/Rip-E-Tech/lnreader-plugins-custom/master/.js/src/plugins/english/puffinFolio.js",
 		"iconUrl": "https://raw.githubusercontent.com/Rip-E-Tech/lnreader-plugins-custom/master/public/static/src/en/puffinfolio/icon.png"
 	},
 	{
@@ -763,7 +763,7 @@
 		"site": "https://rainofsnow.com/",
 		"lang": "English",
 		"version": "1.1.2",
-		"url": "https://raw.githubusercontent.com/Rip-E-Tech/lnreader-plugins-custom/plugins/.js/plugins/english/rainofsnow.js",
+		"url": "https://raw.githubusercontent.com/Rip-E-Tech/lnreader-plugins-custom/master/.js/src/plugins/english/rainofsnow.js",
 		"iconUrl": "https://raw.githubusercontent.com/Rip-E-Tech/lnreader-plugins-custom/master/public/static/src/en/rainofsnow/icon.png"
 	},
 	{
@@ -772,7 +772,7 @@
 		"site": "https://readfrom.net/",
 		"lang": "English",
 		"version": "1.1.0",
-		"url": "https://raw.githubusercontent.com/Rip-E-Tech/lnreader-plugins-custom/plugins/.js/plugins/english/readfrom.js",
+		"url": "https://raw.githubusercontent.com/Rip-E-Tech/lnreader-plugins-custom/master/.js/src/plugins/english/readfrom.js",
 		"iconUrl": "https://raw.githubusercontent.com/Rip-E-Tech/lnreader-plugins-custom/master/public/static/src/en/readfrom/icon.png"
 	},
 	{
@@ -781,7 +781,7 @@
 		"site": "https://www.rechapters.com",
 		"lang": "English",
 		"version": "1.0.0",
-		"url": "https://raw.githubusercontent.com/Rip-E-Tech/lnreader-plugins-custom/plugins/.js/plugins/english/rechapters.js",
+		"url": "https://raw.githubusercontent.com/Rip-E-Tech/lnreader-plugins-custom/master/.js/src/plugins/english/rechapters.js",
 		"iconUrl": "https://raw.githubusercontent.com/Rip-E-Tech/lnreader-plugins-custom/master/public/static/src/en/rechapters/icon.png"
 	},
 	{
@@ -790,7 +790,7 @@
 		"site": "https://re-library.com",
 		"lang": "English",
 		"version": "1.0.4",
-		"url": "https://raw.githubusercontent.com/Rip-E-Tech/lnreader-plugins-custom/plugins/.js/plugins/english/relibrary.js",
+		"url": "https://raw.githubusercontent.com/Rip-E-Tech/lnreader-plugins-custom/master/.js/src/plugins/english/relibrary.js",
 		"iconUrl": "https://raw.githubusercontent.com/Rip-E-Tech/lnreader-plugins-custom/master/public/static/src/en/relibrary/icon.png"
 	},
 	{
@@ -799,7 +799,7 @@
 		"site": "https://www.royalroad.com/",
 		"lang": "English",
 		"version": "2.3.4",
-		"url": "https://raw.githubusercontent.com/Rip-E-Tech/lnreader-plugins-custom/plugins/.js/plugins/english/royalroad.js",
+		"url": "https://raw.githubusercontent.com/Rip-E-Tech/lnreader-plugins-custom/master/.js/src/plugins/english/royalroad.js",
 		"iconUrl": "https://raw.githubusercontent.com/Rip-E-Tech/lnreader-plugins-custom/master/public/static/src/en/royalroad/icon.png"
 	},
 	{
@@ -808,7 +808,7 @@
 		"site": "https://www.scribblehub.com/",
 		"lang": "English",
 		"version": "1.0.2",
-		"url": "https://raw.githubusercontent.com/Rip-E-Tech/lnreader-plugins-custom/plugins/.js/plugins/english/scribblehub.js",
+		"url": "https://raw.githubusercontent.com/Rip-E-Tech/lnreader-plugins-custom/master/.js/src/plugins/english/scribblehub.js",
 		"iconUrl": "https://raw.githubusercontent.com/Rip-E-Tech/lnreader-plugins-custom/master/public/static/src/en/scribblehub/icon.png"
 	},
 	{
@@ -817,7 +817,7 @@
 		"site": "https://seireitranslations.blogspot.com",
 		"lang": "English",
 		"version": "1.0.0",
-		"url": "https://raw.githubusercontent.com/Rip-E-Tech/lnreader-plugins-custom/plugins/.js/plugins/english/seireitranslations.js",
+		"url": "https://raw.githubusercontent.com/Rip-E-Tech/lnreader-plugins-custom/master/.js/src/plugins/english/seireitranslations.js",
 		"iconUrl": "https://raw.githubusercontent.com/Rip-E-Tech/lnreader-plugins-custom/master/public/static/src/en/seireitranslations/icon.png"
 	},
 	{
@@ -826,7 +826,7 @@
 		"site": "https://skythewood.blogspot.com",
 		"lang": "English",
 		"version": "1.0.0",
-		"url": "https://raw.githubusercontent.com/Rip-E-Tech/lnreader-plugins-custom/plugins/.js/plugins/english/skythewood.js",
+		"url": "https://raw.githubusercontent.com/Rip-E-Tech/lnreader-plugins-custom/master/.js/src/plugins/english/skythewood.js",
 		"iconUrl": "https://raw.githubusercontent.com/Rip-E-Tech/lnreader-plugins-custom/master/public/static/src/en/skythewood/icon.png"
 	},
 	{
@@ -835,7 +835,7 @@
 		"site": "https://storyseedling.com/",
 		"lang": "English",
 		"version": "1.0.6",
-		"url": "https://raw.githubusercontent.com/Rip-E-Tech/lnreader-plugins-custom/plugins/.js/plugins/english/StorySeedling.js",
+		"url": "https://raw.githubusercontent.com/Rip-E-Tech/lnreader-plugins-custom/master/.js/src/plugins/english/StorySeedling.js",
 		"iconUrl": "https://raw.githubusercontent.com/Rip-E-Tech/lnreader-plugins-custom/master/public/static/src/en/storyseedling/icon.png"
 	},
 	{
@@ -844,7 +844,7 @@
 		"site": "https://thesylthorian.com",
 		"lang": "English",
 		"version": "1.0.0",
-		"url": "https://raw.githubusercontent.com/Rip-E-Tech/lnreader-plugins-custom/plugins/.js/plugins/english/sylthorian.js",
+		"url": "https://raw.githubusercontent.com/Rip-E-Tech/lnreader-plugins-custom/master/.js/src/plugins/english/sylthorian.js",
 		"iconUrl": "https://raw.githubusercontent.com/Rip-E-Tech/lnreader-plugins-custom/master/public/static/src/en/sylthorian/icon.png"
 	},
 	{
@@ -853,7 +853,7 @@
 		"site": "https://tensurafan.github.io",
 		"lang": "English",
 		"version": "1.0.0",
-		"url": "https://raw.githubusercontent.com/Rip-E-Tech/lnreader-plugins-custom/plugins/.js/plugins/english/tensurafan.js",
+		"url": "https://raw.githubusercontent.com/Rip-E-Tech/lnreader-plugins-custom/master/.js/src/plugins/english/tensurafan.js",
 		"iconUrl": "https://raw.githubusercontent.com/Rip-E-Tech/lnreader-plugins-custom/master/public/static/src/en/tensurafan/icon.png"
 	},
 	{
@@ -862,7 +862,7 @@
 		"site": "https://www.tinytranslation.xyz",
 		"lang": "English",
 		"version": "1.0.0",
-		"url": "https://raw.githubusercontent.com/Rip-E-Tech/lnreader-plugins-custom/plugins/.js/plugins/english/tinytranslation.js",
+		"url": "https://raw.githubusercontent.com/Rip-E-Tech/lnreader-plugins-custom/master/.js/src/plugins/english/tinytranslation.js",
 		"iconUrl": "https://raw.githubusercontent.com/Rip-E-Tech/lnreader-plugins-custom/master/public/static/src/en/tinytranslation/icon.png"
 	},
 	{
@@ -871,7 +871,7 @@
 		"site": "https://www.toasteful.com",
 		"lang": "English",
 		"version": "1.0.2",
-		"url": "https://raw.githubusercontent.com/Rip-E-Tech/lnreader-plugins-custom/plugins/.js/plugins/english/toasteful.js",
+		"url": "https://raw.githubusercontent.com/Rip-E-Tech/lnreader-plugins-custom/master/.js/src/plugins/english/toasteful.js",
 		"iconUrl": "https://raw.githubusercontent.com/Rip-E-Tech/lnreader-plugins-custom/master/public/static/src/en/toasteful/icon.png"
 	},
 	{
@@ -880,7 +880,7 @@
 		"site": "https://vynovel.com",
 		"lang": "English",
 		"version": "1.0.1",
-		"url": "https://raw.githubusercontent.com/Rip-E-Tech/lnreader-plugins-custom/plugins/.js/plugins/english/vynovel.js",
+		"url": "https://raw.githubusercontent.com/Rip-E-Tech/lnreader-plugins-custom/master/.js/src/plugins/english/vynovel.js",
 		"iconUrl": "https://raw.githubusercontent.com/Rip-E-Tech/lnreader-plugins-custom/master/public/static/src/en/vynovel/icon.png"
 	},
 	{
@@ -889,7 +889,7 @@
 		"site": "https://www.webnovel.com",
 		"lang": "English",
 		"version": "1.1.0",
-		"url": "https://raw.githubusercontent.com/Rip-E-Tech/lnreader-plugins-custom/plugins/.js/plugins/english/webnovel.js",
+		"url": "https://raw.githubusercontent.com/Rip-E-Tech/lnreader-plugins-custom/master/.js/src/plugins/english/webnovel.js",
 		"iconUrl": "https://raw.githubusercontent.com/Rip-E-Tech/lnreader-plugins-custom/master/public/static/src/en/webnovel/icon.png"
 	},
 	{
@@ -898,7 +898,7 @@
 		"site": "https://wntl.net/",
 		"lang": "English",
 		"version": "2.3.0",
-		"url": "https://raw.githubusercontent.com/Rip-E-Tech/lnreader-plugins-custom/plugins/.js/plugins/english/wntl.js",
+		"url": "https://raw.githubusercontent.com/Rip-E-Tech/lnreader-plugins-custom/master/.js/src/plugins/english/wntl.js",
 		"iconUrl": "https://raw.githubusercontent.com/Rip-E-Tech/lnreader-plugins-custom/master/public/static/src/en/webnoveltraslation/icon.png"
 	},
 	{
@@ -907,7 +907,7 @@
 		"site": "https://wetriedtls.com",
 		"lang": "English",
 		"version": "1.0.6",
-		"url": "https://raw.githubusercontent.com/Rip-E-Tech/lnreader-plugins-custom/plugins/.js/plugins/english/wetriedtls.js",
+		"url": "https://raw.githubusercontent.com/Rip-E-Tech/lnreader-plugins-custom/master/.js/src/plugins/english/wetriedtls.js",
 		"iconUrl": "https://raw.githubusercontent.com/Rip-E-Tech/lnreader-plugins-custom/master/public/static/src/en/wetriedtls/icon.png"
 	},
 	{
@@ -916,7 +916,7 @@
 		"site": "https://witchculttranslation.com",
 		"lang": "English",
 		"version": "1.0.0",
-		"url": "https://raw.githubusercontent.com/Rip-E-Tech/lnreader-plugins-custom/plugins/.js/plugins/english/wct.js",
+		"url": "https://raw.githubusercontent.com/Rip-E-Tech/lnreader-plugins-custom/master/.js/src/plugins/english/wct.js",
 		"iconUrl": "https://raw.githubusercontent.com/Rip-E-Tech/lnreader-plugins-custom/master/public/static/src/en/wct/icon.png"
 	},
 	{
@@ -925,7 +925,7 @@
 		"site": "https://wtr-lab.com/",
 		"lang": "English",
 		"version": "1.2.6",
-		"url": "https://raw.githubusercontent.com/Rip-E-Tech/lnreader-plugins-custom/plugins/.js/plugins/english/wtrlab.js",
+		"url": "https://raw.githubusercontent.com/Rip-E-Tech/lnreader-plugins-custom/master/.js/src/plugins/english/wtrlab.js",
 		"iconUrl": "https://raw.githubusercontent.com/Rip-E-Tech/lnreader-plugins-custom/master/public/static/src/en/wtrlab/icon.png"
 	},
 	{
@@ -934,7 +934,7 @@
 		"site": "https://www.wuxiaworld.com/",
 		"lang": "English",
 		"version": "0.5.1",
-		"url": "https://raw.githubusercontent.com/Rip-E-Tech/lnreader-plugins-custom/plugins/.js/plugins/english/wuxiaworld.js",
+		"url": "https://raw.githubusercontent.com/Rip-E-Tech/lnreader-plugins-custom/master/.js/src/plugins/english/wuxiaworld.js",
 		"iconUrl": "https://raw.githubusercontent.com/Rip-E-Tech/lnreader-plugins-custom/master/public/static/src/en/wuxiaworld/icon.png"
 	},
 	{
@@ -943,7 +943,7 @@
 		"site": "https://chireads.com",
 		"lang": "Français",
 		"version": "2.3.4",
-		"url": "https://raw.githubusercontent.com/Rip-E-Tech/lnreader-plugins-custom/plugins/.js/plugins/french/chireads.js",
+		"url": "https://raw.githubusercontent.com/Rip-E-Tech/lnreader-plugins-custom/master/.js/src/plugins/french/chireads.js",
 		"iconUrl": "https://raw.githubusercontent.com/Rip-E-Tech/lnreader-plugins-custom/master/public/static/src/fr/chireads/icon.png"
 	},
 	{
@@ -952,7 +952,7 @@
 		"site": "https://harkeneliwood.wordpress.com",
 		"lang": "Français",
 		"version": "1.0.3",
-		"url": "https://raw.githubusercontent.com/Rip-E-Tech/lnreader-plugins-custom/plugins/.js/plugins/french/harkeneliwood.js",
+		"url": "https://raw.githubusercontent.com/Rip-E-Tech/lnreader-plugins-custom/master/.js/src/plugins/french/harkeneliwood.js",
 		"iconUrl": "https://raw.githubusercontent.com/Rip-E-Tech/lnreader-plugins-custom/master/public/static/src/fr/harkeneliwood/icon.png"
 	},
 	{
@@ -961,7 +961,7 @@
 		"site": "https://j-garden.fr/",
 		"lang": "Français",
 		"version": "1.0.5",
-		"url": "https://raw.githubusercontent.com/Rip-E-Tech/lnreader-plugins-custom/plugins/.js/plugins/french/jgarden.js",
+		"url": "https://raw.githubusercontent.com/Rip-E-Tech/lnreader-plugins-custom/master/.js/src/plugins/french/jgarden.js",
 		"iconUrl": "https://raw.githubusercontent.com/Rip-E-Tech/lnreader-plugins-custom/master/public/static/src/fr/jgarden/icon.png"
 	},
 	{
@@ -970,7 +970,7 @@
 		"site": "https://kisswood.eu",
 		"lang": "Français",
 		"version": "1.0.3",
-		"url": "https://raw.githubusercontent.com/Rip-E-Tech/lnreader-plugins-custom/plugins/.js/plugins/french/kisswood.js",
+		"url": "https://raw.githubusercontent.com/Rip-E-Tech/lnreader-plugins-custom/master/.js/src/plugins/french/kisswood.js",
 		"iconUrl": "https://raw.githubusercontent.com/Rip-E-Tech/lnreader-plugins-custom/master/public/static/src/fr/kisswood/icon.png"
 	},
 	{
@@ -979,7 +979,7 @@
 		"site": "https://www.lightnovelvf.com/",
 		"lang": "Français",
 		"version": "1.0.4",
-		"url": "https://raw.githubusercontent.com/Rip-E-Tech/lnreader-plugins-custom/plugins/.js/plugins/french/lightnovelvf.js",
+		"url": "https://raw.githubusercontent.com/Rip-E-Tech/lnreader-plugins-custom/master/.js/src/plugins/french/lightnovelvf.js",
 		"iconUrl": "https://raw.githubusercontent.com/Rip-E-Tech/lnreader-plugins-custom/master/public/static/src/fr/lightnovelvf/icon.png"
 	},
 	{
@@ -988,7 +988,7 @@
 		"site": "https://noveldeglace.com/",
 		"lang": "Français",
 		"version": "1.0.8",
-		"url": "https://raw.githubusercontent.com/Rip-E-Tech/lnreader-plugins-custom/plugins/.js/plugins/french/noveldeglace.js",
+		"url": "https://raw.githubusercontent.com/Rip-E-Tech/lnreader-plugins-custom/master/.js/src/plugins/french/noveldeglace.js",
 		"iconUrl": "https://raw.githubusercontent.com/Rip-E-Tech/lnreader-plugins-custom/master/public/static/src/fr/noveldeglace/icon.png"
 	},
 	{
@@ -997,7 +997,7 @@
 		"site": "https://novelfrance.fr/",
 		"lang": "Français",
 		"version": "1.0.2",
-		"url": "https://raw.githubusercontent.com/Rip-E-Tech/lnreader-plugins-custom/plugins/.js/plugins/french/novelfrance.js",
+		"url": "https://raw.githubusercontent.com/Rip-E-Tech/lnreader-plugins-custom/master/.js/src/plugins/french/novelfrance.js",
 		"iconUrl": "https://raw.githubusercontent.com/Rip-E-Tech/lnreader-plugins-custom/master/public/static/src/fr/novelfrance/icon.png"
 	},
 	{
@@ -1006,7 +1006,7 @@
 		"site": "https://novhell.org",
 		"lang": "Français",
 		"version": "1.0.5",
-		"url": "https://raw.githubusercontent.com/Rip-E-Tech/lnreader-plugins-custom/plugins/.js/plugins/french/novhell.js",
+		"url": "https://raw.githubusercontent.com/Rip-E-Tech/lnreader-plugins-custom/master/.js/src/plugins/french/novhell.js",
 		"iconUrl": "https://raw.githubusercontent.com/Rip-E-Tech/lnreader-plugins-custom/master/public/static/src/fr/novhell/icon.png"
 	},
 	{
@@ -1015,7 +1015,7 @@
 		"site": "https://rezerowebnovelfr.wordpress.com",
 		"lang": "Français",
 		"version": "1.0.3",
-		"url": "https://raw.githubusercontent.com/Rip-E-Tech/lnreader-plugins-custom/plugins/.js/plugins/french/rezerowebnovelfr.js",
+		"url": "https://raw.githubusercontent.com/Rip-E-Tech/lnreader-plugins-custom/master/.js/src/plugins/french/rezerowebnovelfr.js",
 		"iconUrl": "https://raw.githubusercontent.com/Rip-E-Tech/lnreader-plugins-custom/master/public/static/src/fr/rezerowebnovelfr/icon.png"
 	},
 	{
@@ -1024,7 +1024,7 @@
 		"site": "https://trad-index.com/",
 		"lang": "Français",
 		"version": "1.0.8",
-		"url": "https://raw.githubusercontent.com/Rip-E-Tech/lnreader-plugins-custom/plugins/.js/plugins/french/tradindex.js",
+		"url": "https://raw.githubusercontent.com/Rip-E-Tech/lnreader-plugins-custom/master/.js/src/plugins/french/tradindex.js",
 		"iconUrl": "https://raw.githubusercontent.com/Rip-E-Tech/lnreader-plugins-custom/master/public/static/src/fr/tradindex/icon.png"
 	},
 	{
@@ -1033,7 +1033,7 @@
 		"site": "https://warriorlegendtrad.wordpress.com",
 		"lang": "Français",
 		"version": "1.0.4",
-		"url": "https://raw.githubusercontent.com/Rip-E-Tech/lnreader-plugins-custom/plugins/.js/plugins/french/warriorlegendtrad.js",
+		"url": "https://raw.githubusercontent.com/Rip-E-Tech/lnreader-plugins-custom/master/.js/src/plugins/french/warriorlegendtrad.js",
 		"iconUrl": "https://raw.githubusercontent.com/Rip-E-Tech/lnreader-plugins-custom/master/public/static/src/fr/warriorlegendtrad/icon.png"
 	},
 	{
@@ -1042,7 +1042,7 @@
 		"site": "https://wuxialnscantrad.wordpress.com",
 		"lang": "Français",
 		"version": "1.0.4",
-		"url": "https://raw.githubusercontent.com/Rip-E-Tech/lnreader-plugins-custom/plugins/.js/plugins/french/wuxialnscantrad.js",
+		"url": "https://raw.githubusercontent.com/Rip-E-Tech/lnreader-plugins-custom/master/.js/src/plugins/french/wuxialnscantrad.js",
 		"iconUrl": "https://raw.githubusercontent.com/Rip-E-Tech/lnreader-plugins-custom/master/public/static/src/fr/wuxialnscantrad/icon.png"
 	},
 	{
@@ -1051,7 +1051,7 @@
 		"site": "https://xiaowaz.fr",
 		"lang": "Français",
 		"version": "1.0.5",
-		"url": "https://raw.githubusercontent.com/Rip-E-Tech/lnreader-plugins-custom/plugins/.js/plugins/french/xiaowaz.js",
+		"url": "https://raw.githubusercontent.com/Rip-E-Tech/lnreader-plugins-custom/master/.js/src/plugins/french/xiaowaz.js",
 		"iconUrl": "https://raw.githubusercontent.com/Rip-E-Tech/lnreader-plugins-custom/master/public/static/src/fr/xiaowaz/icon.png"
 	},
 	{
@@ -1060,7 +1060,7 @@
 		"site": "https://grensia.blogspot.com/",
 		"lang": "Bahasa Indonesia",
 		"version": "1.0.0",
-		"url": "https://raw.githubusercontent.com/Rip-E-Tech/lnreader-plugins-custom/plugins/.js/plugins/indonesian/grensia.js",
+		"url": "https://raw.githubusercontent.com/Rip-E-Tech/lnreader-plugins-custom/master/.js/src/plugins/indonesian/grensia.js",
 		"iconUrl": "https://raw.githubusercontent.com/Rip-E-Tech/lnreader-plugins-custom/master/public/static/src/id/grensia/icon.png"
 	},
 	{
@@ -1069,7 +1069,7 @@
 		"site": "https://indowebnovel.id/",
 		"lang": "Bahasa Indonesia",
 		"version": "1.3.2",
-		"url": "https://raw.githubusercontent.com/Rip-E-Tech/lnreader-plugins-custom/plugins/.js/plugins/indonesian/indowebnovel.js",
+		"url": "https://raw.githubusercontent.com/Rip-E-Tech/lnreader-plugins-custom/master/.js/src/plugins/indonesian/indowebnovel.js",
 		"iconUrl": "https://raw.githubusercontent.com/Rip-E-Tech/lnreader-plugins-custom/master/public/static/src/id/indowebnovel/icon.png"
 	},
 	{
@@ -1078,7 +1078,7 @@
 		"site": "https://novelringan.com/",
 		"lang": "Bahasa Indonesia",
 		"version": "1.1.0",
-		"url": "https://raw.githubusercontent.com/Rip-E-Tech/lnreader-plugins-custom/plugins/.js/plugins/indonesian/novelringan.js",
+		"url": "https://raw.githubusercontent.com/Rip-E-Tech/lnreader-plugins-custom/master/.js/src/plugins/indonesian/novelringan.js",
 		"iconUrl": "https://raw.githubusercontent.com/Rip-E-Tech/lnreader-plugins-custom/master/public/static/src/id/novelringan/icon.png"
 	},
 	{
@@ -1087,7 +1087,7 @@
 		"site": "https://sakuranovel.id/",
 		"lang": "Bahasa Indonesia",
 		"version": "1.0.2",
-		"url": "https://raw.githubusercontent.com/Rip-E-Tech/lnreader-plugins-custom/plugins/.js/plugins/indonesian/sakuranovel.js",
+		"url": "https://raw.githubusercontent.com/Rip-E-Tech/lnreader-plugins-custom/master/.js/src/plugins/indonesian/sakuranovel.js",
 		"iconUrl": "https://raw.githubusercontent.com/Rip-E-Tech/lnreader-plugins-custom/master/public/static/src/id/sakuranovel/icon.png"
 	},
 	{
@@ -1096,7 +1096,7 @@
 		"site": "https://kakuyomu.jp",
 		"lang": "日本語",
 		"version": "1.0.0",
-		"url": "https://raw.githubusercontent.com/Rip-E-Tech/lnreader-plugins-custom/plugins/.js/plugins/japanese/kakuyomu.js",
+		"url": "https://raw.githubusercontent.com/Rip-E-Tech/lnreader-plugins-custom/master/.js/src/plugins/japanese/kakuyomu.js",
 		"iconUrl": "https://raw.githubusercontent.com/Rip-E-Tech/lnreader-plugins-custom/master/public/static/src/jp/kakuyomu/icon.png"
 	},
 	{
@@ -1105,7 +1105,7 @@
 		"site": "https://yomou.syosetu.com/",
 		"lang": "日本語",
 		"version": "1.1.4",
-		"url": "https://raw.githubusercontent.com/Rip-E-Tech/lnreader-plugins-custom/plugins/.js/plugins/japanese/Syosetu.js",
+		"url": "https://raw.githubusercontent.com/Rip-E-Tech/lnreader-plugins-custom/master/.js/src/plugins/japanese/Syosetu.js",
 		"iconUrl": "https://raw.githubusercontent.com/Rip-E-Tech/lnreader-plugins-custom/master/public/static/src/jp/syosetu/icon.png"
 	},
 	{
@@ -1114,7 +1114,7 @@
 		"site": "https://agit664.xyz",
 		"lang": "조선말, 한국어",
 		"version": "3.1.0",
-		"url": "https://raw.githubusercontent.com/Rip-E-Tech/lnreader-plugins-custom/plugins/.js/plugins/korean/Agitoon.js",
+		"url": "https://raw.githubusercontent.com/Rip-E-Tech/lnreader-plugins-custom/master/.js/src/plugins/korean/Agitoon.js",
 		"iconUrl": "https://raw.githubusercontent.com/Rip-E-Tech/lnreader-plugins-custom/master/public/static/src/kr/agitoon/icon.png"
 	},
 	{
@@ -1123,7 +1123,7 @@
 		"site": "https://novelki.pl",
 		"lang": "Polski",
 		"version": "1.0.3",
-		"url": "https://raw.githubusercontent.com/Rip-E-Tech/lnreader-plugins-custom/plugins/.js/plugins/polish/novelki.js",
+		"url": "https://raw.githubusercontent.com/Rip-E-Tech/lnreader-plugins-custom/master/.js/src/plugins/polish/novelki.js",
 		"iconUrl": "https://raw.githubusercontent.com/Rip-E-Tech/lnreader-plugins-custom/master/public/static/src/pl/novelki/icon.png"
 	},
 	{
@@ -1132,7 +1132,7 @@
 		"site": "https://blnovels.com",
 		"lang": "Português",
 		"version": "1.0.0",
-		"url": "https://raw.githubusercontent.com/Rip-E-Tech/lnreader-plugins-custom/plugins/.js/plugins/portuguese/blnovels.js",
+		"url": "https://raw.githubusercontent.com/Rip-E-Tech/lnreader-plugins-custom/master/.js/src/plugins/portuguese/blnovels.js",
 		"iconUrl": "https://raw.githubusercontent.com/Rip-E-Tech/lnreader-plugins-custom/master/public/static/src/pt-br/blnovels/icon.png"
 	},
 	{
@@ -1141,7 +1141,7 @@
 		"site": "https://www.blogdoamonnovels.com",
 		"lang": "Português",
 		"version": "1.0.1",
-		"url": "https://raw.githubusercontent.com/Rip-E-Tech/lnreader-plugins-custom/plugins/.js/plugins/portuguese/blogdoamonnovels.js",
+		"url": "https://raw.githubusercontent.com/Rip-E-Tech/lnreader-plugins-custom/master/.js/src/plugins/portuguese/blogdoamonnovels.js",
 		"iconUrl": "https://raw.githubusercontent.com/Rip-E-Tech/lnreader-plugins-custom/master/public/static/src/pt-br/blogdoamonnovels/icon.png"
 	},
 	{
@@ -1150,7 +1150,7 @@
 		"site": "https://novelmania.com.br",
 		"lang": "Português",
 		"version": "2.0.2",
-		"url": "https://raw.githubusercontent.com/Rip-E-Tech/lnreader-plugins-custom/plugins/.js/plugins/portuguese/novelmania.js",
+		"url": "https://raw.githubusercontent.com/Rip-E-Tech/lnreader-plugins-custom/master/.js/src/plugins/portuguese/novelmania.js",
 		"iconUrl": "https://raw.githubusercontent.com/Rip-E-Tech/lnreader-plugins-custom/master/public/static/src/pt-br/novelmania/icon.png"
 	},
 	{
@@ -1159,7 +1159,7 @@
 		"site": "https://tsundoku.com.br",
 		"lang": "Português",
 		"version": "1.0.2",
-		"url": "https://raw.githubusercontent.com/Rip-E-Tech/lnreader-plugins-custom/plugins/.js/plugins/portuguese/tsundoku.js",
+		"url": "https://raw.githubusercontent.com/Rip-E-Tech/lnreader-plugins-custom/master/.js/src/plugins/portuguese/tsundoku.js",
 		"iconUrl": "https://raw.githubusercontent.com/Rip-E-Tech/lnreader-plugins-custom/master/public/static/src/pt-br/tsundoku/icon.png"
 	},
 	{
@@ -1168,7 +1168,7 @@
 		"site": "https://author.today",
 		"lang": "Русский",
 		"version": "1.2.3",
-		"url": "https://raw.githubusercontent.com/Rip-E-Tech/lnreader-plugins-custom/plugins/.js/plugins/russian/authortoday.js",
+		"url": "https://raw.githubusercontent.com/Rip-E-Tech/lnreader-plugins-custom/master/.js/src/plugins/russian/authortoday.js",
 		"iconUrl": "https://raw.githubusercontent.com/Rip-E-Tech/lnreader-plugins-custom/master/public/static/src/ru/authortoday/icon.png"
 	},
 	{
@@ -1177,7 +1177,7 @@
 		"site": "https://bookriver.ru",
 		"lang": "Русский",
 		"version": "1.0.1",
-		"url": "https://raw.githubusercontent.com/Rip-E-Tech/lnreader-plugins-custom/plugins/.js/plugins/russian/bookriver.js",
+		"url": "https://raw.githubusercontent.com/Rip-E-Tech/lnreader-plugins-custom/master/.js/src/plugins/russian/bookriver.js",
 		"iconUrl": "https://raw.githubusercontent.com/Rip-E-Tech/lnreader-plugins-custom/master/public/static/src/ru/bookriver/icon.png"
 	},
 	{
@@ -1186,7 +1186,7 @@
 		"site": "https://ficbook.net",
 		"lang": "Русский",
 		"version": "1.0.2",
-		"url": "https://raw.githubusercontent.com/Rip-E-Tech/lnreader-plugins-custom/plugins/.js/plugins/russian/ficbook.js",
+		"url": "https://raw.githubusercontent.com/Rip-E-Tech/lnreader-plugins-custom/master/.js/src/plugins/russian/ficbook.js",
 		"iconUrl": "https://raw.githubusercontent.com/Rip-E-Tech/lnreader-plugins-custom/master/public/static/src/ru/ficbook/icon.png"
 	},
 	{
@@ -1195,7 +1195,7 @@
 		"site": "https://hexnovels.me",
 		"lang": "Русский",
 		"version": "1.0.1",
-		"url": "https://raw.githubusercontent.com/Rip-E-Tech/lnreader-plugins-custom/plugins/.js/plugins/russian/hexnovels.js",
+		"url": "https://raw.githubusercontent.com/Rip-E-Tech/lnreader-plugins-custom/master/.js/src/plugins/russian/hexnovels.js",
 		"iconUrl": "https://raw.githubusercontent.com/Rip-E-Tech/lnreader-plugins-custom/master/public/static/src/ru/hexnovels/icon.png"
 	},
 	{
@@ -1204,7 +1204,7 @@
 		"site": "https://jaomix.ru",
 		"lang": "Русский",
 		"version": "1.0.3",
-		"url": "https://raw.githubusercontent.com/Rip-E-Tech/lnreader-plugins-custom/plugins/.js/plugins/russian/jaomix.js",
+		"url": "https://raw.githubusercontent.com/Rip-E-Tech/lnreader-plugins-custom/master/.js/src/plugins/russian/jaomix.js",
 		"iconUrl": "https://raw.githubusercontent.com/Rip-E-Tech/lnreader-plugins-custom/master/public/static/src/ru/jaomix/icon.png"
 	},
 	{
@@ -1213,7 +1213,7 @@
 		"site": "https://neobook.org",
 		"lang": "Русский",
 		"version": "1.0.3",
-		"url": "https://raw.githubusercontent.com/Rip-E-Tech/lnreader-plugins-custom/plugins/.js/plugins/russian/neobook.js",
+		"url": "https://raw.githubusercontent.com/Rip-E-Tech/lnreader-plugins-custom/master/.js/src/plugins/russian/neobook.js",
 		"iconUrl": "https://raw.githubusercontent.com/Rip-E-Tech/lnreader-plugins-custom/master/public/static/src/ru/neobook/icon.png"
 	},
 	{
@@ -1222,7 +1222,7 @@
 		"site": "https://ranobe.life",
 		"lang": "Русский",
 		"version": "1.0.0",
-		"url": "https://raw.githubusercontent.com/Rip-E-Tech/lnreader-plugins-custom/plugins/.js/plugins/russian/ranobelife.js",
+		"url": "https://raw.githubusercontent.com/Rip-E-Tech/lnreader-plugins-custom/master/.js/src/plugins/russian/ranobelife.js",
 		"iconUrl": "https://raw.githubusercontent.com/Rip-E-Tech/lnreader-plugins-custom/master/public/static/src/ru/ranobelife/icon.png"
 	},
 	{
@@ -1231,7 +1231,7 @@
 		"site": "https://ranobe.me",
 		"lang": "Русский",
 		"version": "1.0.0",
-		"url": "https://raw.githubusercontent.com/Rip-E-Tech/lnreader-plugins-custom/plugins/.js/plugins/russian/ranobeme.js",
+		"url": "https://raw.githubusercontent.com/Rip-E-Tech/lnreader-plugins-custom/master/.js/src/plugins/russian/ranobeme.js",
 		"iconUrl": "https://raw.githubusercontent.com/Rip-E-Tech/lnreader-plugins-custom/master/public/static/src/ru/ranobeme/icon.png"
 	},
 	{
@@ -1240,7 +1240,7 @@
 		"site": "https://ranobemir.com",
 		"lang": "Русский",
 		"version": "1.0.1",
-		"url": "https://raw.githubusercontent.com/Rip-E-Tech/lnreader-plugins-custom/plugins/.js/plugins/russian/ranobemir.js",
+		"url": "https://raw.githubusercontent.com/Rip-E-Tech/lnreader-plugins-custom/master/.js/src/plugins/russian/ranobemir.js",
 		"iconUrl": "https://raw.githubusercontent.com/Rip-E-Tech/lnreader-plugins-custom/master/public/static/src/ru/ranobemir/icon.png"
 	},
 	{
@@ -1249,7 +1249,7 @@
 		"site": "https://renovels.org",
 		"lang": "Русский",
 		"version": "1.0.5",
-		"url": "https://raw.githubusercontent.com/Rip-E-Tech/lnreader-plugins-custom/plugins/.js/plugins/russian/renovels.js",
+		"url": "https://raw.githubusercontent.com/Rip-E-Tech/lnreader-plugins-custom/master/.js/src/plugins/russian/renovels.js",
 		"iconUrl": "https://raw.githubusercontent.com/Rip-E-Tech/lnreader-plugins-custom/master/public/static/src/ru/renovels/icon.png"
 	},
 	{
@@ -1258,7 +1258,7 @@
 		"site": "https://ranobelib.me",
 		"lang": "Русский",
 		"version": "2.2.8",
-		"url": "https://raw.githubusercontent.com/Rip-E-Tech/lnreader-plugins-custom/plugins/.js/plugins/russian/ranobelib.js",
+		"url": "https://raw.githubusercontent.com/Rip-E-Tech/lnreader-plugins-custom/master/.js/src/plugins/russian/ranobelib.js",
 		"iconUrl": "https://raw.githubusercontent.com/Rip-E-Tech/lnreader-plugins-custom/master/public/static/src/ru/ranobelib/icon.png"
 	},
 	{
@@ -1267,7 +1267,7 @@
 		"site": "https://ranobehub.org",
 		"lang": "Русский",
 		"version": "2.0.0",
-		"url": "https://raw.githubusercontent.com/Rip-E-Tech/lnreader-plugins-custom/plugins/.js/plugins/russian/ranobehub.js",
+		"url": "https://raw.githubusercontent.com/Rip-E-Tech/lnreader-plugins-custom/master/.js/src/plugins/russian/ranobehub.js",
 		"iconUrl": "https://raw.githubusercontent.com/Rip-E-Tech/lnreader-plugins-custom/master/public/static/src/ru/ranobehub/icon.png"
 	},
 	{
@@ -1276,7 +1276,7 @@
 		"site": "https://xn--80acm4afj.xn--p1ai",
 		"lang": "Русский",
 		"version": "1.0.2",
-		"url": "https://raw.githubusercontent.com/Rip-E-Tech/lnreader-plugins-custom/plugins/.js/plugins/russian/ranoberf.js",
+		"url": "https://raw.githubusercontent.com/Rip-E-Tech/lnreader-plugins-custom/master/.js/src/plugins/russian/ranoberf.js",
 		"iconUrl": "https://raw.githubusercontent.com/Rip-E-Tech/lnreader-plugins-custom/master/public/static/src/ru/ranoberf/icon.png"
 	},
 	{
@@ -1285,7 +1285,7 @@
 		"site": "https://ruranobe.ru",
 		"lang": "Русский",
 		"version": "1.0.0",
-		"url": "https://raw.githubusercontent.com/Rip-E-Tech/lnreader-plugins-custom/plugins/.js/plugins/russian/ruranobe.js",
+		"url": "https://raw.githubusercontent.com/Rip-E-Tech/lnreader-plugins-custom/master/.js/src/plugins/russian/ruranobe.js",
 		"iconUrl": "https://raw.githubusercontent.com/Rip-E-Tech/lnreader-plugins-custom/master/public/static/src/ru/ruranobe/icon.png"
 	},
 	{
@@ -1294,7 +1294,7 @@
 		"site": "https://novel.tl",
 		"lang": "Русский",
 		"version": "1.0.3",
-		"url": "https://raw.githubusercontent.com/Rip-E-Tech/lnreader-plugins-custom/plugins/.js/plugins/russian/novelTL.js",
+		"url": "https://raw.githubusercontent.com/Rip-E-Tech/lnreader-plugins-custom/master/.js/src/plugins/russian/novelTL.js",
 		"iconUrl": "https://raw.githubusercontent.com/Rip-E-Tech/lnreader-plugins-custom/master/public/static/src/ru/noveltl/icon.png"
 	},
 	{
@@ -1303,7 +1303,7 @@
 		"site": "https://webfandom.ru",
 		"lang": "Русский",
 		"version": "1.0.0",
-		"url": "https://raw.githubusercontent.com/Rip-E-Tech/lnreader-plugins-custom/plugins/.js/plugins/russian/webfandom.js",
+		"url": "https://raw.githubusercontent.com/Rip-E-Tech/lnreader-plugins-custom/master/.js/src/plugins/russian/webfandom.js",
 		"iconUrl": "https://raw.githubusercontent.com/Rip-E-Tech/lnreader-plugins-custom/master/public/static/src/ru/webfandom/icon.png"
 	},
 	{
@@ -1312,7 +1312,7 @@
 		"site": "https://zelluloza.ru",
 		"lang": "Русский",
 		"version": "1.0.4",
-		"url": "https://raw.githubusercontent.com/Rip-E-Tech/lnreader-plugins-custom/plugins/.js/plugins/russian/zelluloza.js",
+		"url": "https://raw.githubusercontent.com/Rip-E-Tech/lnreader-plugins-custom/master/.js/src/plugins/russian/zelluloza.js",
 		"iconUrl": "https://raw.githubusercontent.com/Rip-E-Tech/lnreader-plugins-custom/master/public/static/src/ru/zelluloza/icon.png"
 	},
 	{
@@ -1321,7 +1321,7 @@
 		"site": "https://hasutl.wordpress.com/",
 		"lang": "Español",
 		"version": "1.0.0",
-		"url": "https://raw.githubusercontent.com/Rip-E-Tech/lnreader-plugins-custom/plugins/.js/plugins/spanish/hasutl.js",
+		"url": "https://raw.githubusercontent.com/Rip-E-Tech/lnreader-plugins-custom/master/.js/src/plugins/spanish/hasutl.js",
 		"iconUrl": "https://raw.githubusercontent.com/Rip-E-Tech/lnreader-plugins-custom/master/public/static/src/es/hasutl/icon.jpg"
 	},
 	{
@@ -1330,7 +1330,7 @@
 		"site": "https://novelasligeras.net",
 		"lang": "Español",
 		"version": "1.1.1",
-		"url": "https://raw.githubusercontent.com/Rip-E-Tech/lnreader-plugins-custom/plugins/.js/plugins/spanish/NOVA.js",
+		"url": "https://raw.githubusercontent.com/Rip-E-Tech/lnreader-plugins-custom/master/.js/src/plugins/spanish/NOVA.js",
 		"iconUrl": "https://raw.githubusercontent.com/Rip-E-Tech/lnreader-plugins-custom/master/public/static/src/es/nova/icon.png"
 	},
 	{
@@ -1339,7 +1339,7 @@
 		"site": "https://novelasligera.com/",
 		"lang": "Español",
 		"version": "1.0.0",
-		"url": "https://raw.githubusercontent.com/Rip-E-Tech/lnreader-plugins-custom/plugins/.js/plugins/spanish/novelasligera.js",
+		"url": "https://raw.githubusercontent.com/Rip-E-Tech/lnreader-plugins-custom/master/.js/src/plugins/spanish/novelasligera.js",
 		"iconUrl": "https://raw.githubusercontent.com/Rip-E-Tech/lnreader-plugins-custom/master/public/static/src/es/novelasligera/icon.png"
 	},
 	{
@@ -1348,7 +1348,7 @@
 		"site": "https://www.novels2.com",
 		"lang": "Español",
 		"version": "1.0.0",
-		"url": "https://raw.githubusercontent.com/Rip-E-Tech/lnreader-plugins-custom/plugins/.js/plugins/spanish/novels2.js",
+		"url": "https://raw.githubusercontent.com/Rip-E-Tech/lnreader-plugins-custom/master/.js/src/plugins/spanish/novels2.js",
 		"iconUrl": "https://raw.githubusercontent.com/Rip-E-Tech/lnreader-plugins-custom/master/public/static/src/es/novels2/icon.png"
 	},
 	{
@@ -1357,7 +1357,7 @@
 		"site": "https://novelyra.com/",
 		"lang": "Español",
 		"version": "1.0.1",
-		"url": "https://raw.githubusercontent.com/Rip-E-Tech/lnreader-plugins-custom/plugins/.js/plugins/spanish/novelyra.js",
+		"url": "https://raw.githubusercontent.com/Rip-E-Tech/lnreader-plugins-custom/master/.js/src/plugins/spanish/novelyra.js",
 		"iconUrl": "https://raw.githubusercontent.com/Rip-E-Tech/lnreader-plugins-custom/master/public/static/src/es/novelyra/icon.png"
 	},
 	{
@@ -1366,7 +1366,7 @@
 		"site": "https://oasistranslations.wordpress.com/",
 		"lang": "Español",
 		"version": "1.0.0",
-		"url": "https://raw.githubusercontent.com/Rip-E-Tech/lnreader-plugins-custom/plugins/.js/plugins/spanish/oasistranslations.js",
+		"url": "https://raw.githubusercontent.com/Rip-E-Tech/lnreader-plugins-custom/master/.js/src/plugins/spanish/oasistranslations.js",
 		"iconUrl": "https://raw.githubusercontent.com/Rip-E-Tech/lnreader-plugins-custom/master/public/static/src/es/oasistranslations/icon.png"
 	},
 	{
@@ -1375,7 +1375,7 @@
 		"site": "http://www.reinowuxia.com/",
 		"lang": "Español",
 		"version": "1.0.0",
-		"url": "https://raw.githubusercontent.com/Rip-E-Tech/lnreader-plugins-custom/plugins/.js/plugins/spanish/novelawuxia.js",
+		"url": "https://raw.githubusercontent.com/Rip-E-Tech/lnreader-plugins-custom/master/.js/src/plugins/spanish/novelawuxia.js",
 		"iconUrl": "https://raw.githubusercontent.com/Rip-E-Tech/lnreader-plugins-custom/master/public/static/src/es/reinowuxia/icon.png"
 	},
 	{
@@ -1384,7 +1384,7 @@
 		"site": "https://www.skynovels.net/",
 		"lang": "Español",
 		"version": "1.1.0",
-		"url": "https://raw.githubusercontent.com/Rip-E-Tech/lnreader-plugins-custom/plugins/.js/plugins/spanish/skynovels.js",
+		"url": "https://raw.githubusercontent.com/Rip-E-Tech/lnreader-plugins-custom/master/.js/src/plugins/spanish/skynovels.js",
 		"iconUrl": "https://raw.githubusercontent.com/Rip-E-Tech/lnreader-plugins-custom/master/public/static/src/es/skynovels/icon.png"
 	},
 	{
@@ -1393,7 +1393,7 @@
 		"site": "https://tunovelaligera.com",
 		"lang": "Español",
 		"version": "1.2.1",
-		"url": "https://raw.githubusercontent.com/Rip-E-Tech/lnreader-plugins-custom/plugins/.js/plugins/spanish/tunovelaligera.js",
+		"url": "https://raw.githubusercontent.com/Rip-E-Tech/lnreader-plugins-custom/master/.js/src/plugins/spanish/tunovelaligera.js",
 		"iconUrl": "https://raw.githubusercontent.com/Rip-E-Tech/lnreader-plugins-custom/master/public/static/src/es/tunovelaligera/icon.png"
 	},
 	{
@@ -1402,7 +1402,7 @@
 		"site": "https://yuukitls.com/",
 		"lang": "Español",
 		"version": "1.0.0",
-		"url": "https://raw.githubusercontent.com/Rip-E-Tech/lnreader-plugins-custom/plugins/.js/plugins/spanish/yukitls.js",
+		"url": "https://raw.githubusercontent.com/Rip-E-Tech/lnreader-plugins-custom/master/.js/src/plugins/spanish/yukitls.js",
 		"iconUrl": "https://raw.githubusercontent.com/Rip-E-Tech/lnreader-plugins-custom/master/public/static/src/es/yuukitls/icon.png"
 	},
 	{
@@ -1411,7 +1411,7 @@
 		"site": "https://www.epiknovel.com/",
 		"lang": "Türkçe",
 		"version": "1.0.0",
-		"url": "https://raw.githubusercontent.com/Rip-E-Tech/lnreader-plugins-custom/plugins/.js/plugins/turkish/epiknovel.js",
+		"url": "https://raw.githubusercontent.com/Rip-E-Tech/lnreader-plugins-custom/master/.js/src/plugins/turkish/epiknovel.js",
 		"iconUrl": "https://raw.githubusercontent.com/Rip-E-Tech/lnreader-plugins-custom/master/public/static/src/tr/epiknovel/icon.png"
 	},
 	{
@@ -1420,7 +1420,7 @@
 		"site": "https://manga-tr.com/",
 		"lang": "Türkçe",
 		"version": "1.0.1",
-		"url": "https://raw.githubusercontent.com/Rip-E-Tech/lnreader-plugins-custom/plugins/.js/plugins/turkish/MangaTR.js",
+		"url": "https://raw.githubusercontent.com/Rip-E-Tech/lnreader-plugins-custom/master/.js/src/plugins/turkish/MangaTR.js",
 		"iconUrl": "https://raw.githubusercontent.com/Rip-E-Tech/lnreader-plugins-custom/master/public/static/src/tr/mangatr/icon.png"
 	},
 	{
@@ -1429,7 +1429,7 @@
 		"site": "https://ragnarscans.net",
 		"lang": "Türkçe",
 		"version": "1.0.3",
-		"url": "https://raw.githubusercontent.com/Rip-E-Tech/lnreader-plugins-custom/plugins/.js/plugins/turkish/ragnarscans.js",
+		"url": "https://raw.githubusercontent.com/Rip-E-Tech/lnreader-plugins-custom/master/.js/src/plugins/turkish/ragnarscans.js",
 		"iconUrl": "https://raw.githubusercontent.com/Rip-E-Tech/lnreader-plugins-custom/master/public/static/src/tr/ragnarscans/icon.png"
 	},
 	{
@@ -1438,7 +1438,7 @@
 		"site": "https://www.rezeroturkce.com/",
 		"lang": "Türkçe",
 		"version": "1.0.0",
-		"url": "https://raw.githubusercontent.com/Rip-E-Tech/lnreader-plugins-custom/plugins/.js/plugins/turkish/rezeroturkce.js",
+		"url": "https://raw.githubusercontent.com/Rip-E-Tech/lnreader-plugins-custom/master/.js/src/plugins/turkish/rezeroturkce.js",
 		"iconUrl": "https://raw.githubusercontent.com/Rip-E-Tech/lnreader-plugins-custom/master/public/static/src/tr/rezeroturkce/icon.png"
 	},
 	{
@@ -1447,7 +1447,7 @@
 		"site": "https://baka.in.ua",
 		"lang": "Українська",
 		"version": "3.1.7",
-		"url": "https://raw.githubusercontent.com/Rip-E-Tech/lnreader-plugins-custom/plugins/.js/plugins/ukrainian/bakainua.js",
+		"url": "https://raw.githubusercontent.com/Rip-E-Tech/lnreader-plugins-custom/master/.js/src/plugins/ukrainian/bakainua.js",
 		"iconUrl": "https://raw.githubusercontent.com/Rip-E-Tech/lnreader-plugins-custom/master/public/static/src/uk/bakainua/icon.png"
 	},
 	{
@@ -1456,7 +1456,7 @@
 		"site": "https://smakolykytl.site/",
 		"lang": "Українська",
 		"version": "1.0.1",
-		"url": "https://raw.githubusercontent.com/Rip-E-Tech/lnreader-plugins-custom/plugins/.js/plugins/ukrainian/smakolykytl.js",
+		"url": "https://raw.githubusercontent.com/Rip-E-Tech/lnreader-plugins-custom/master/.js/src/plugins/ukrainian/smakolykytl.js",
 		"iconUrl": "https://raw.githubusercontent.com/Rip-E-Tech/lnreader-plugins-custom/master/public/static/src/uk/smakolykytl/icon.png"
 	},
 	{
@@ -1465,7 +1465,7 @@
 		"site": "https://lightnovel.vn",
 		"lang": "Tiếng Việt",
 		"version": "1.0.0",
-		"url": "https://raw.githubusercontent.com/Rip-E-Tech/lnreader-plugins-custom/plugins/.js/plugins/vietnamese/lightnovelvn.js",
+		"url": "https://raw.githubusercontent.com/Rip-E-Tech/lnreader-plugins-custom/master/.js/src/plugins/vietnamese/lightnovelvn.js",
 		"iconUrl": "https://raw.githubusercontent.com/Rip-E-Tech/lnreader-plugins-custom/master/public/static/src/vi/lightnovelvn/icon.png"
 	},
 	{
@@ -1474,7 +1474,7 @@
 		"site": "https://ln.hako.vn",
 		"lang": "Tiếng Việt",
 		"version": "1.2.1",
-		"url": "https://raw.githubusercontent.com/Rip-E-Tech/lnreader-plugins-custom/plugins/.js/plugins/vietnamese/LNHako.js",
+		"url": "https://raw.githubusercontent.com/Rip-E-Tech/lnreader-plugins-custom/master/.js/src/plugins/vietnamese/LNHako.js",
 		"iconUrl": "https://raw.githubusercontent.com/Rip-E-Tech/lnreader-plugins-custom/master/public/static/src/vi/hakolightnovel/icon.png"
 	},
 	{
@@ -1483,7 +1483,7 @@
 		"site": "https://nettruyen.com.vn",
 		"lang": "Tiếng Việt",
 		"version": "1.0.0",
-		"url": "https://raw.githubusercontent.com/Rip-E-Tech/lnreader-plugins-custom/plugins/.js/plugins/vietnamese/nettruyen.js",
+		"url": "https://raw.githubusercontent.com/Rip-E-Tech/lnreader-plugins-custom/master/.js/src/plugins/vietnamese/nettruyen.js",
 		"iconUrl": "https://raw.githubusercontent.com/Rip-E-Tech/lnreader-plugins-custom/master/public/static/src/vi/nettruyen/icon.png"
 	},
 	{
@@ -1492,7 +1492,7 @@
 		"site": "https://truyendich.space",
 		"lang": "Tiếng Việt",
 		"version": "1.0.0",
-		"url": "https://raw.githubusercontent.com/Rip-E-Tech/lnreader-plugins-custom/plugins/.js/plugins/vietnamese/truyendich.js",
+		"url": "https://raw.githubusercontent.com/Rip-E-Tech/lnreader-plugins-custom/master/.js/src/plugins/vietnamese/truyendich.js",
 		"iconUrl": "https://raw.githubusercontent.com/Rip-E-Tech/lnreader-plugins-custom/master/public/static/src/vi/truyendich/icon.png"
 	},
 	{
@@ -1501,7 +1501,7 @@
 		"site": "https://truyenss.com",
 		"lang": "Tiếng Việt",
 		"version": "1.0.0",
-		"url": "https://raw.githubusercontent.com/Rip-E-Tech/lnreader-plugins-custom/plugins/.js/plugins/vietnamese/truyenss.js",
+		"url": "https://raw.githubusercontent.com/Rip-E-Tech/lnreader-plugins-custom/master/.js/src/plugins/vietnamese/truyenss.js",
 		"iconUrl": "https://raw.githubusercontent.com/Rip-E-Tech/lnreader-plugins-custom/master/public/static/src/vi/truyenss/icon.png"
 	},
 	{
@@ -1510,7 +1510,7 @@
 		"site": "url",
 		"lang": "Multi",
 		"version": "1.0.2",
-		"url": "https://raw.githubusercontent.com/Rip-E-Tech/lnreader-plugins-custom/plugins/.js/plugins/multi/komga.js",
+		"url": "https://raw.githubusercontent.com/Rip-E-Tech/lnreader-plugins-custom/master/.js/src/plugins/multi/komga.js",
 		"iconUrl": "https://raw.githubusercontent.com/Rip-E-Tech/lnreader-plugins-custom/master/public/static/src/multi/komga/icon.png"
 	}
 ]
