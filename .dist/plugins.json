@@ -1518,8 +1518,8 @@
     "name": "NovZon",
     "site": "https://novzon.net",
     "lang": "Türkçe",
-    "version": "1.0.1",
-    "url": "https://raw.githubusercontent.com/Rip-E-Tech/lnreader-plugins-custom/82a844c34ff611986ac184e5eaa646c4c4899cff/.js/plugins/turkish/novzon.js",
-    "iconUrl": "https://raw.githubusercontent.com/Rip-E-Tech/lnreader-plugins-custom/master/public/static/src/tr/ragnarscans/icon.png"
+    "version": "1.0.2",
+    "url": "https://raw.githubusercontent.com/Rip-E-Tech/lnreader-plugins-custom/plugins/.js/plugins/turkish/novzon.js",
+    "iconUrl": "https://raw.githubusercontent.com/Rip-E-Tech/lnreader-plugins-custom/master/public/static/src/tr/novzon/icon.png"
   }
 ]
