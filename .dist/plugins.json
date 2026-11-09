@@ -1429,7 +1429,7 @@
     "site": "https://ragnarscans.net",
     "lang": "Türkçe",
     "version": "1.0.6",
-    "url": "https://raw.githubusercontent.com/Rip-E-Tech/lnreader-plugins-custom/546d88d4b0cc6305127801ae23e41ec122717f80/.js/plugins/turkish/ragnarscans.js",
+    "url": "https://raw.githubusercontent.com/Rip-E-Tech/lnreader-plugins-custom/0620340067592aeb3bb309e2ec06af9eec1de7cc/.js/plugins/turkish/ragnarscans.js",
     "iconUrl": "https://raw.githubusercontent.com/Rip-E-Tech/lnreader-plugins-custom/master/public/static/src/tr/ragnarscans/icon.png"
   },
   {
@@ -1512,5 +1512,14 @@
     "version": "1.0.2",
     "url": "https://raw.githubusercontent.com/Rip-E-Tech/lnreader-plugins-custom/546d88d4b0cc6305127801ae23e41ec122717f80/.js/plugins/multi/komga.js",
     "iconUrl": "https://raw.githubusercontent.com/Rip-E-Tech/lnreader-plugins-custom/master/public/static/src/multi/komga/icon.png"
+  },
+  {
+    "id": "novzon",
+    "name": "NovZon",
+    "site": "https://novzon.net",
+    "lang": "Türkçe",
+    "version": "1.0.0",
+    "url": "https://raw.githubusercontent.com/Rip-E-Tech/lnreader-plugins-custom/0620340067592aeb3bb309e2ec06af9eec1de7cc/.js/plugins/turkish/novzon.js",
+    "iconUrl": "https://raw.githubusercontent.com/Rip-E-Tech/lnreader-plugins-custom/master/public/static/src/tr/ragnarscans/icon.png"
   }
 ]
